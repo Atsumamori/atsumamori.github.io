@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.site-layout {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+}
+
+.site-sidebar {
+  width: 600px;
+  flex-shrink: 0;
+}
+
+.site-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-content .wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit * 0.5;
+    padding-left: $spacing-unit * 0.5;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .site-layout {
+    flex-direction: column !important;
+  }
+
+  .site-sidebar {
+    width: 100%;
+  }
+
+  .site-main {
+    width: 100%;
+  }
+}

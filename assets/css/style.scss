@@ -1,0 +1,39 @@
+---
+---
+
+@import "minima";
+
+.site-layout {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+}
+
+.site-sidebar {
+  flex: 0 0 250px;
+}
+
+.site-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-content .wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+.site-layout {
+  background: rgba(255, 0, 0, 0.1);
+  border: 3px solid red;
+}
+
+.site-sidebar {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.site-main {
+  background: rgba(0, 0, 255, 0.1);
+}

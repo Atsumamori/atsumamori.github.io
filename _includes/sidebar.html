@@ -1,0 +1,15 @@
+<p  style="font-size:20px;">
+	Part-Time Shiny Hunter Since 2011
+</p>
+<p  style="font-size:20px;">
+	With preferences for hunting on older generation games.
+</p>
+<p  style="font-size:20px;">
+	Current Shiny Count: {{ site.data.shiny.size }}
+</p>
+<p>
+	{% assign shinyByNumber = site.data.shiny | sort: "number" %}
+	{% for shiny in shinyByNumber %}
+		<img src="/assets/images/minis/mini_{{ shiny.number }}{%- if shiny.form -%}_{{ shiny.form }}{%- endif -%}.png"/>
+	{% endfor %}
+</P>
