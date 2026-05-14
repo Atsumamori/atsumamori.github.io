@@ -14,13 +14,13 @@ layout: default
   
 		{% assign versionGrouping = huntsByStatus.items | group_by: "version" %}
 		{% for huntsByVersion in versionGrouping %}
-			<h2><img src="/assets/images/games/{{ huntsByVersion.name  | remove: " " }}.png" alt="{{ huntsByVersion.name  }} Icon"> Pokémon {{ huntsByVersion.name }}</h2>
+			<h2><img src="/assets/images/games/{{ huntsByVersion.name  | remove: " " | downcase }}.png" alt="{{ huntsByVersion.name  }} Icon"> Pokémon {{ huntsByVersion.name }}</h2>
 			{% for hunt in huntsByVersion.items %}
 				<p>
 					<table style="border-collapse: collapse; border: none;width:100%;table-layout: fixed;">
 						<tr>
 							<td style="border: none;width: 180px;height: 180px;padding: 0;text-align: center;vertical-align: middle;overflow: hidden;padding: 0;" rowspan=2>
-								<img src="/assets/images/places/{{ hunt.place | remove: " " | remove: "." }}.png" alt="{{ hunt.place }} Image" style="aspect-ratio:1;object-fit:cover;width:180px">
+								<img src="/assets/images/places/{{ hunt.place | remove: " " | remove: "." | downcase }}.png" alt="{{ hunt.place }} Image" style="aspect-ratio:1;object-fit:cover;width:180px">
 							</td>
 							<td style="border: none;">
 								<h3>{{ hunt.place }} {% if hunt.method %} ({{ hunt.method }}){% endif %}</h3>
@@ -33,7 +33,7 @@ layout: default
 									{% for pokemonFromList in pokemonList %}
 										{% assign pokemonData = site.data.pokemon | where: "name", pokemonFromList | first %}
 										<td style="border: none; padding: 0;min-width:100px; width: 1px; white-space: nowrap;">
-											<img src="/assets/images/sprites/{{ pokemonData.number }}_{{ hunt.version  | remove: " " }}.png" alt={{ pokemonFromList }} 
+											<img src="/assets/images/sprites/{{ pokemonData.number }}_{{ hunt.version  | remove: " " | downcase }}.png" alt={{ pokemonFromList }} 
 											style="display: block; width: auto; height: auto;max-width: 90px; max-height: 90px;">
 											{%- if hunt.target == pokemonFromList -%}
 											<br/>Target
