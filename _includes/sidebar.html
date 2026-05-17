@@ -8,8 +8,8 @@
 	Current Shiny Count: {{ site.data.shiny.size }}
 </p>
 <p>
-	{% assign shinyByNumber = site.data.shiny | sort: "number" %}
+	{% assign shinyByNumber = site.data.shiny | sort: "pokemonNumber" %}
 	{% for shiny in shinyByNumber %}
-		<img src="/assets/images/minis/mini_{{ shiny.number }}{%- if shiny.form -%}_{{ shiny.form }}{%- endif -%}.png"/>
+		<a href="/shiny-pokemon/#{{ shiny.shinyCount }}"><img src="/assets/images/minis/mini_{{ shiny.pokemonNumber }}{%- if shiny.pokemonForm -%}_{{ shiny.pokemonForm | downcase }}{%- endif -%}.png"/></a>
 	{% endfor %}
 </P>

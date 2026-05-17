@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /shiny/
+---
+
+{% assign num = page.url | split: "number=" | last %}
+
+{% assign pokemon = site.data.shiny | where: "number", num | first %}
+
+{% if pokemon %}
+  <h1>{{ pokemon.name }}</h1>
+  <p>Number: {{ pokemon.number }}</p>
+
+  <img src="/assets/images/minis/mini_{{ pokemon.number }}.png">
+{% else %}
+  <p>Pokémon not found.</p>
+{% endif %}
