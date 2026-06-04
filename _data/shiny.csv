@@ -1,27 +1,27 @@
-shinyCount,pokemonNumber,pokemonSpecies,pokemonForm,name,game,method,count,target,date,place,level,ball,gender,nature,ability,characteristic,ivs,OT,ID,SID,reference,tale,influence,item,startDate,intermediary,numberSinceLast,height,weight,specific,color
+shinyCount,pokemonNumber,pokemonSpecies,pokemonForm,name,game,method,count,target,date,place,level,ball,gender,nature,ability,characteristic,ivs,OT,ID,SID,reference,tale,influence,item,startDate,intermediary,numberSinceLast,height,weight,specific,color,pid
 0001,0277,Swellow,,Sirocco,Sapphire,Random Encounter,,,,Route 115,,Ultra,Female,Impish,,Good endurance,21 / 24 / 28 / 11 / 14 / 16,MARINE,44535,,Wind name,"At that time, I was bored in Pokémon Sapphire, having done about all that I could do in the game. So I was strolling through the map, checking if there was some item I forgot or anything. Then a green Taillow appeared! I didn’t even try to weaken it, only throwing balls at her until she stayed in one.
 
-Following pictures are coming from Pokémon Diamond, after the transfer.",,,,,,,,,#319462
-0002,0371,Bagon,,Auvergne,Diamond,Random Masuda Egg,,,13 January 2008,Route 210,,Poké,Male,Adamant,Rock Head,Loves to eat,30 / 07 / 12 / 16 / 17 / 28,Konata,17220,,French Region,"This is a random find too. I was a Pokémon breeder on Pokémon Diamond, other players would ask me what Pokémon they wanted and I would breed it for them. This time I was asked for a Bagon of Adamant nature and with good IVs. I happened to have a French Ditto and a Japanese Shiny female Salamence and, while I wasn’t aware of the Masuda method, it worked to give me this child.",,,,,,,,,#4fd663
+Following pictures are coming from Pokémon Diamond, after the transfer.",,,,,,,,,#319462,
+0002,0371,Bagon,,Auvergne,Diamond,Random Masuda Egg,,,13 January 2008,Route 210,,Poké,Male,Adamant,Rock Head,Loves to eat,30 / 07 / 12 / 16 / 17 / 28,Konata,17220,,French Region,"This is a random find too. I was a Pokémon breeder on Pokémon Diamond, other players would ask me what Pokémon they wanted and I would breed it for them. This time I was asked for a Bagon of Adamant nature and with good IVs. I happened to have a French Ditto and a Japanese Shiny female Salamence and, while I wasn’t aware of the Masuda method, it worked to give me this child.",,,,,,,,,#4fd663,
 0003,0397,Staravia,,Plume,Diamond,Poké Radar,39,Tauros,03 August 2008,Route 209,17,Dusk,Female,Sassy,Intimidate,,02 / 11 / 07 / 18 / 21 / 25,Konata,17220,,French for Feather,"A bit of time after getting Bagon, I considered for the first time Shiny Hunting. I decided to try it with Poké Radar, following the advices I could find, breaking the chain several times. While my goal was Tauros, I thought it worth to train on other Pokémon. I took my time on a Starvia chain, until the awaited Shiny Grass appeared.
 The battle was easy. I didn’t weaken it, as I had nothing for this, only throwing balls at it.
 
-Illustration from flumanog on reddit.",,,,,,,,,#633f1d
+Illustration from flumanog on reddit.",,,,,,,,,#633f1d,
 0004,0343,Baltoy,,Sophia,SoulSilver,Random Masuda Egg,,,08 July 2010,,,Poké,,Impish,Levitate,,06 / 06 / 26 / 16 / 01 / 03,Yesod,18305,,Sophia – Final Fantasy 14,"After clearing the Pokémon League in SoulSilver, I was on the way of completing the Pokédex. I transfered a lot of Pokémon from Diamond and made eggs to have them with my ID. This Baltoy is coming from this egg session, from an English Claydol and a Ditto from the SoulSilver game.
 
-Illustration by Xous54 on DeviantArt.",,,,,,,,,#00dccd
+Illustration by Xous54 on DeviantArt.",,,,,,,,,#00dccd,
 0005,0633,Deino,,Benedict,Black,Random Masuda Egg,2,,10 May 2011,,,Poké,Male,Jolly,Hustle,,13 / 26 / 13 / 02 / 15 / 31,Yesod,09561,,Benedict – The Chronicles of Amber,"It was my first game of Pokémon Black. I had completed the Pokédex with trading, little by little. At a moment, I was asked for an Adamant Deino for a trade, so I started doing eggs and the second one was a shiny one. The name comes from The Chronicles of Amber that I was re-reading at that time.
-Illustration by pen-papers on tumblr.",,,,,,,,,#4b6b3d
+Illustration by pen-papers on tumblr.",,,,,,,,,#4b6b3d,
 0006,0495,Snivy,,Corwin,White,Masuda Eggs,255,,24 September 2011,,,Poké,Male,Hasty,Overgrow,,17 / 09 / 19 / 23 / 30 / 17,Yesod,51883,,Corwin – The Chronicles of Amber,"After Benedict (Deino), I decided to try again on Shiny Hunting. For this, I choose to try Masuda method on a Snivy. Back then it seemed like it lasted forever while in reality it was fast.
 
-Illustration is deviation of RileyKitty on tumblr.",,,,,,,,,#34b674
+Illustration is deviation of RileyKitty on tumblr.",,,,,,,,,#34b674,
 0007,0399,Bidoof,,KEUNOTOR,Platinum,Full-Rate Poké Radar,22,Pachirisu,19 August 2012,Route 205,12,Poké,Male,Impish,Unaware,,13 / 01 / 06 / 24 / 19 / 24,Mithos,35852,,French Default Name,"I wanted to try Poké Radar once more, as I have found what looked like a good way to use it. I tried it on whatever I found in the grass until suddenly a brighter Bidoof appear, on a non-shiny grass. One Poké Ball was sufficient to catch it.
 
-Illustration by PenAndPapers on NewGrounds.",,,,,,,,,#f9e09f
+Illustration by PenAndPapers on NewGrounds.",,,,,,,,,#f9e09f,
 0008,0498,Tepig,,Jasra,White2,Masuda Eggs + Shiny Charm,606,,16 February 2013,,,Poké,Female,Mild,Blaze,Alert to sounds,09 / 08 / 24 / 30 / 15 / 31,Asch,61787,,Jasra – The Chronicles of Amber,"Following on Corwin, I wanted to try to get the other starter Pokémon. Brand was supposed to be the next one, as I was sure it would be a male, knowing female rate is low.
 I first tried on the same game I got Corwin on, then stopped for a long time before starting again on White2, after obtaining the Shiny Charm, wanting to try it with the Masuda method. I filled my 24 boxes, getting no Shiny. I then filled my party and the penultimate one was the Shiny. Though, despite the certitude, it was a female, so she was named Jasra instead of Brand.
 
-Illustration by SarahR_Art on Twitter.",,,,,,,,,#f4ce59
+Illustration by SarahR_Art on Twitter.",,,,,,,,,#f4ce59,
 0009,0269,Dustox,,Milady,Ruby,Encounters,422,Ralts,04 June 2013,Route 102,4,Poké,Female,Docile,Shield Dust,,25 / 07 / 12 / 24 / 25 / 26,Athos,12692,,Milady – Musketeer: Le Sang des Chevaliers,"I started playing Pokémon Blue on emulator on my phone, to occupy the 40 minutes of walking and 10 minutes of train I had to do daily. As I was leveling my Pokémon, I thought it might be more productive to do it with a game where I can find shiny Pokémon, so I started Ruby.
 
 Quickly I start the game, choose Mudkip as a starter (I thought only later that I could reset it) and went to Route 102, and started doing encounters, leveling Mudkip.
@@ -34,7 +34,7 @@ I named her after a character of a visual novel based on the novel of Alexandre 
 
 At first I didn't want to make her evolve but after obtaining a Wurmple in Legends Arceus, I tried to evolve her and kept her into Dustox.
 
-Illustration by SombraTheWolf on DeviantArt.",,,,,,,,,#c06ac2
+Illustration by SombraTheWolf on DeviantArt.",,,,,,,,,#c06ac2,066D5D1C
 0010,0276,Taillow,,Porthos,Ruby,Encounters,783,Skitty,27 June 2013,Route 116,6,Premier,Male,Hardy,Guts,,27 / 24 / 05 / 22 / 31 / 02,Athos,12692,,Porthos – Musketeer: Le Sang des Chevaliers,"After obtaining Milady the Wurmple, I continued the story to Rustboro City. Once the badge obtained, I thought about turning this into a Shiny Badge Quest. So that's what I've done.
 
 Between the first and second badge, I decided to hunt on Route 116, hoping to get Skitty. Taillow was not unwanted either, as it would have been a reminiscence of my first shiny Pokémon.
@@ -45,14 +45,14 @@ I wanted to get it with a Premier Ball but I had only one. I still tried it, thi
 
 Continuing with the same inspiration of the visual novel / the Three Musketeers, I named him Porthos. Though this nickname is planned for Terrakion. I guess I will have to find another one.
 
-Illustration by PenAndPapers on NewGrouds.",,,,,,,,,#41c879
+Illustration by PenAndPapers on NewGrouds.",,,,,,,,,#41c879,CE9F95EC
 0011,0608,Lampent,,ランプラー,Black,Encounters,4463,Yes,02 July 2013,Celestial Tower,27,Premier,Male,Bashful,,,25 / 20 / 29 / 25 / 2 / 31,カンベエ,11672,,Japanese Default Name,"During a step of the perpetual contest of ShinyHunters forum, I decided to hunt Litwick. I started on my French Black game but the step got closed before I can find it, after 3100 encounters.
 Start of SHTC, I decided to hunt Litwick again, on another game.
 First day: 1350 encounter without a shiny.
 Second day: After getting up at 12h45, I started doing encounters absentmindly while watching TV, a documentary on tornados. Suddenly, I hear the sound of shininess I haven't heard since long (Taillow and Wurmple were caught without sound).
 I rush on my phone for a picture but I am disappointed by the quality so I use my PSVita. After the mandatory photo for the SHTC, I throw a Premier Ball. Only one ball, like for Taillow and Wurmple, and it gets in. Without thinking, I pass the nickname option. I had none in mind anyway.
 
-Illustration by rinnai-rai, reposted by curiousCantrip on tumblr.",Illuminate,,,,,,,,#ee46fe
+Illustration by rinnai-rai, reposted by curiousCantrip on tumblr.",Illuminate,,,,,,,,#ee46fe,
 0012,0359,Absol,,Zelos,Emerald,Encounters,3009,Yes,15 July 2013,Route 120,25,Ultra,Male,Rash,Pressure,,27 / 13 / 6 / 11 / 9 / 5,Yesod,34513,,Zelos Wilder – Tales of Symphonia,"After learning that reset Rayquaza on Emerald is useless (I know, it’s with runs), I then decided to do encounters to still get a Shiny Pokémon on this game I borrowed.
 
 I don’t remember how I choose the place, but anyway that ended up being Route 120. That hunt lasted for long as I started (and ended) some others in the meantime.
@@ -71,7 +71,7 @@ Unfortunately. The idea was then to give him the name of a character with blue e
 
 Next step: Fire-Red!
 
-Illustration by Mions-Art on DeviantArt.",,,,,,,,,#f4355c
+Illustration by Mions-Art on DeviantArt.",,,,,,,,,#f4355c,
 0013,0048,Venonat,,Seisaku,FireRed,Encounters,743,Ditto,16 July 2013,Route 15,25,Great,Male,Timid,Compound Eyes,,22 / 3 / 15 / 8 / 19 / 14,Kamui,08475,,Seisaku – .hack//G.U.,"So, the day before, I found Absol, today I was continuing on FireRed.
 
 My preferences were Ditto and Venonat.
@@ -86,25 +86,25 @@ I chose the Great Ball for the blue colour, the first one not managing to keep h
 
 Seisaku for the character of .hack//G.U. that have similar colours (violet hair and blue eyes).
 
-Illustration by RobloxMeUwU on reddit.",,,,,,,,,#1f60c9
+Illustration by RobloxMeUwU on reddit.",,,,,,,,,#1f60c9,
 0014,0501,Oshawott,,Caine,White2,Masuda Eggs + Shiny Charm,3943,,17 July 2013,Route 3,,Poké,Male,Modest,Torrent,Often lost in thought,19 / 0 / 1 / 23 / 3 / 18,Asch,61787,,Caine – The Chronicles of Amber,"My last Masuda! As I did the other two with this method, I wanted to do this one too.
 
 Illustration by SarahR_Art on Twitter.",,,,,,,,,"#79caff
-"
+",
 0015,0447,Riolu,,タリエシン,White2,Encounters + Shiny Charm,1491,Mareep,19 July 2013,Floccecy Ranch,7,Great,Male,Lax,Inner Focus,,21 / 21 / 24 / 8 / 11 / 07,ハンベエ,42866,,Taliesin – Tears to Tiara,"So, I wanted to try the Shiny Charm with encounters. I wanted a Mareep so I went to the Floccecy Ranch.
 
-Illustration by USV02 on DeviantArt.",,,,,,,,,#f7f0b9
+Illustration by USV02 on DeviantArt.",,,,,,,,,#f7f0b9,
 0016,0316,Gulpin,,Cho,Ruby,Encounters,4782,Plusle,22 July 2013,Route 110,12,Great,Female,Gentle,Liquid Ooze,,0 / 11 / 4 / 14 / 31 / 12,Athos,12692,,Cho Chang – Harry Potter,"So I was progressing into my current hunts with my favourite activity: reading. At that moment, I was on the Harry Potter series, the end of the third volume. The television was broadcasting the show The Pretender and that was between the book and the TV, when Jarod was being saved from Lyle by his brother and Harry and Hermione saved Sirius with the help on Buck, I hear from my earphones the sound of stars and I lower my eyes on a blue Gulpin with a small gasp of surprise.
 
-It's not my favourite Pokémon from this route. With only one Great Ball (blue fitting with Gulpin) she joins my team with the name of Cho, references of Cho Chang of Harry Potter.",,,,,,,,,#1e8ed5
-0017,0201,Unown,int,??????,Diamond,Encounters,2592,Yes,24 July 2013,Solaceon Ruins,19,Net,,Jolly,,Capable of taking hits,11 / 12 / 21 / 19 / 18 / 10,Konata,17220,,Unown Report,"I found it still while reading Harry Potter, volume 4 this time. It needed only two Net Balls to catch it.",Illuminate,,,,,,,,#194d9f
+It's not my favourite Pokémon from this route. With only one Great Ball (blue fitting with Gulpin) she joins my team with the name of Cho, references of Cho Chang of Harry Potter.",,,,,,,,,#1e8ed5,8C43D736
+0017,0201,Unown,int,??????,Diamond,Encounters,2592,Yes,24 July 2013,Solaceon Ruins,19,Net,,Jolly,,Capable of taking hits,11 / 12 / 21 / 19 / 18 / 10,Konata,17220,,Unown Report,"I found it still while reading Harry Potter, volume 4 this time. It needed only two Net Balls to catch it.",Illuminate,,,,,,,,#194d9f,
 0018,0366,Clamperl,,Marvolo,HeartGold,Surfing Encounters + Swarm,,Yes,31 July 2013,Route 19,35,Dive,Male,Hasty,,Quick to flee,14 / 20 / 16 / 3 / 23 / 29,Rita,49663,,Marvolo Gaunt – Harry Potter,"On this day, my phone was discharged. It meant I had to do a break on my fishing on Diamond as I used my phone to count. So I hunted on HeartGold where I had the ambition to find a Shiny Pokémon in a swarm.
 
 This day, it was a swarm of Clamperl on Route 19, but I had no way to get there. I then needed to continue the story to get there. It's near the end of the day that I started hunting, while reading Harry Potter and the Half-Blood Prince. I wasn't counting but in less than two hundred encounters, a starry Clamperl appeared, between Tentacools, Tentacruels and normal Clamperls. I named it in referenced of the character of Harry Potter. It was the only name I had in mind.
 
 This Pokémon was supposed to be for the ShinysHunters' Teams Cup n°7 but it appeared during the mid-contest break where no Shiny is counted.
 
-Illustration by GhostNinja1373 on DeviantArt.",Illuminate,,,,,,,,#c54ae6
+Illustration by GhostNinja1373 on DeviantArt.",Illuminate,,,,,,,,#c54ae6,
 0019,0130,Gyarados,,Devanagari,Diamond,Old Rod Fishing,10794,Yes,20 August 2013,Route 219,16,Quick,Male,Impish,,Capable of taking hits,24 / 12 / 26 / 21 / 16 / 11,Konata,17220,,Devanagari Language,"I think I wanted a Magikarp.
 
 In any case, I started to fish on Diamond game.
@@ -117,7 +117,7 @@ Quick photo with the PSVita then I look at my bag and check on the balls. None s
 
 I named him Devanagari because, while reading about it online today, I thought I would name it this way would I find it today.
 
-Illustration posted by Rodrigo Avila on Pinterest.",Sticky Hold,,,,,,,,#e7454d
+Illustration posted by Rodrigo Avila on Pinterest.",Sticky Hold,,,,,,,,#e7454d,
 0020,0279,Pelipper,,Kanbalar,Black,Surfing,5106,Wingul,26 August 2013,Undella Bay,49,Quick,Female,Modest,Keen Eye,Strong willed,23 / 4 / 15 / 15 / 25 / 10,Yesod,09561,,Kanbalar – Tales of Xillia,"The ultimate goal was to find Wingul The Revolution, the Ebon Wing.
 
 When seeing for the first time the name of this character of Tales of Xillia, I couldn’t miss to associate it with the Pokémon Wingull and I promised to myself to name this way any Shiny Wingull I would meet.
@@ -138,7 +138,7 @@ The nickname was hard to choose. I thought of the exclamation of Milla Maxwell, 
 For a moment I really thought of naming her this way, I even wrote it. But I found that inappropriate so I chose something else.
 It was finally the name of the capitale of Auj Oule that was used for this future Pelipper.
 
-Illustration by EggEnvironmental1763 on reddit.",Illuminate,,20 August 2013,,,,,,#65b62c
+Illustration by EggEnvironmental1763 on reddit.",Illuminate,,20 August 2013,,,,,,#65b62c,
 0021,0410,Shieldon,,Foselos,Black,Hard Resets,5757,,18 September 2013,Nacrene City,5,Poké,Male,Bashful,Sturdy,Highly curious,13 / 2 / 29 / 30 / 28 / 20,Yesod,09561,,Foselos – Tales of Graces,"Needing more contests, I registered for “Bip et la carte secrète” while I was hunting Wingul, after finding Kanbalar.
 I decided to find by what I feared the most: resets.
 As I couldn’t do Soft Resets (in other words, using the shortcut with the buttons of the device) as my L button was broken, I needed to turn off then on again the device (also called Hard Reset).
@@ -146,20 +146,20 @@ As I couldn’t do Soft Resets (in other words, using the shortcut with the butt
 The fossils I had were Omanyte, Aerodactyle, Shieldon, 2 Tirtouga and Archen. I removed Aerodactyle so I had only five to try.
 
 I did plenty of resets, taking two days to alternate with some others hunts.
-But this day I focused on the resets and it took only 32 resets for this little male Shieldon to appear. I named it “Foselos”, the name would have been the same for any other fossil.",,,30 August 2013,,,,,,#3c5d8e
+But this day I focused on the resets and it took only 32 resets for this little male Shieldon to appear. I named it “Foselos”, the name would have been the same for any other fossil.",,,30 August 2013,,,,,,#3c5d8e,
 0022,0035,Clefairy,,Cymnea,Black,Encounters,4428,Lunatone / Solrock / Ditto,21 September 2013,Giant Chasm,62,Heal,Female,Impish,Magic Guard,Likes to relax,29 / 9 / 3 / 24 / 17 / 0,Yesod,09561,,Cymnea – The Chronicles of Amber,"After Foselos the Shieldon, new part of the secret card: the imposed place is the Giant Chasm.
 I naturally get into the Crater Forest where several Pokémon are interesting to me but I feel deep inside that I will meet a Piloswine.
 After 4 428 encounters, it's a Clefairy that shows herself, with a Ditto. I quickly defeat the Ditto with a Thunderbolt attack and use False-Swipe on Clefairy. She doesn't loose all the HP I expected but still get into the first and only Heal Ball I throw at her.
 Small surprise: she holds a Leppa Berry.
 
-Illustration by rosedoodle.",,Leppa Berry ,19 September 2013,,,,,,#ffdede
+Illustration by rosedoodle.",,Leppa Berry ,19 September 2013,,,,,,#ffdede,
 0023,0278,Wingull,,Riga,Black,Surfing,5188,Wingul,30 September 2013,Undella Bay,29,Premier,Female,Impish,Keen Eye,Often lost in thought,23 / 12 / 5 / 28 / 8 / 2,Yesod,09561,,Riga – The Chronicles of Amber,"As for Kanbalar, I was looking for a male Wingull. After 5 000 encounters, I started hunting for Bip et la carte secrète, hoping for a place on the podium. Foselos came, then Cymnea. I then was looking for the last Pokémon. I arrived at 9 000 when the last place was taken.
 
 While I do not give up this hunt, I continued with the oldest: Wingull. To maximize the odds to find a male, I took a femalle Jigglypuff with Cute Charm. I look at the ten first encounters, all males. So I continue hunting without worry, one earphone in the ear, watching Gladiator and chatting on the Shiny Hunter Canal of the chat of PokéBip and two more forums.
 
 Suddenly, 188 encounters after starting, I hear shining. I look at the screen and see a Wingull. Rather far, I can't see the green of the wings. I think it will be a male but I see the pink symbol being displayed. Another female despite the Cute Charm.
 
-Illustration by ghostlyscribbles on tumblr.",Cute Charm for male,,,,,,,,#73e642
+Illustration by ghostlyscribbles on tumblr.",Cute Charm for male,,,,,,,,#73e642,
 0024,0655,Delphox,,Chesedonia,X,Resets,15,,14 October 2013,Aquacorde Town,5,Poké,Female,Bashful,Blaze,Alert to sounds,11 / 5 / 25 / 5 / 26 / 31,Peony,65275,,"Chesedonia, the Center of Trade – Tales of the Abyss","A few days before the release of X and Y, despite me saying countless time that I wouldn't buy a console for these, that I would wait for another day to get one, I started to feel restless, seeing all the images, all these people talking about it. I wanted it.
 
 One day before the release, I went to see if the second-hand 3DS I saw was still there, but not. So I haven't bought anything.
@@ -170,7 +170,7 @@ And so, two days after the release, I finally buy a 2DS (black and blue) and Pok
 
 At first I did not want to reset a Starter but finally I thought I would reset it 100 times, just in case. Even though I knew I would stop only when I get it.
 
-I didn't had to go that far. 15 resets later, a little Fennekin showed itself in my party with this purple/silver colour (depending on the point of view, I see both alternatively) that prove the shininess.",,,14 October 2013,,,,,,#74587e
+I didn't had to go that far. 15 resets later, a little Fennekin showed itself in my party with this purple/silver colour (depending on the point of view, I see both alternatively) that prove the shininess.",,,14 October 2013,,,,,,#74587e,
 0025,0677,Espurr,,Aria,X,Friend Safari Encounters,,Yes,23 October 2013,Friend Safari,30,Premier,Male,Mild,Infiltrator,Somewhat Vain,31 / 21 / 18 / 16 / 31 / 17,Peony,65275,,President Aria – Aqua,"Espurr and Meowstic are my two favourite Pokémon from X and Y. It was obvious to me to hunt for them when I get the game.
 
 After a few tries on Route 6 before being done with the story, I finally continue with the Friend Safari where I got the code of someone having, like me, Espurrs.
@@ -181,12 +181,12 @@ A few pictures, a False-Swipe hit, a Premier ball, and it was done.
 
 As it have blue eyes (or at least it seems to me), I named him “Aria”, in reference to the President of the Aria Company that is a blue-eyed white cat in Aqua / Aria.
 
-This Pokémon won’t evolve but I’ll hunt a few more.",,,,,,,,,#f2d4e0
+This Pokémon won’t evolve but I’ll hunt a few more.",,,,,,,,,#f2d4e0,
 0026,0607,Litwick,,Rinaldo,Black,Encounters,27790,Yes,11 November 2013,Celestial Tower,26,Premier,Male,Lax,Flame Body,A little quick tempered,8 / 27 / 19 / 0 / 2 / 14,Yesod,09561,,Rinaldo – The Chronicle of Amber,"At the end of Bip et la carte secrète, one Pokémon was still not found: the Pokémon of the imposed Ghost type that I have chosen to be Litwick. When it ended, I was at 9 000 encounters, approximately. But I did not want to give up on it and continued. It was more than one month after the start of the hunt that this little pest arrived, while I was watching Mr. & Mrs. Smith on the M6 channel.
 
 I heard it appear when I had the eyes on the computer. I then turned the head toward the screen where I saw the flame being another colour before going back to the computer with a small adrenaline rush and affirm on the shiny hunting chat that I found it and get a fit of laughter.
 
-I had to recharge my PSVita before being able to capture it, to be able to take a picture. Once done, I noticed I had only 12 Premier Ball left. One was enough to catch this little one.",,,21 September 2013,,,,,,#52bde6
+I had to recharge my PSVita before being able to capture it, to be able to take a picture. Once done, I noticed I had only 12 Premier Ball left. One was enough to catch this little one.",,,21 September 2013,,,,,,#52bde6,
 0027,0684,Swirlix,,Break,X,Random Friend Safari Encounters,,,14 November 2013,Friend Safari,30,Luxury,Male,Gentle,Unburden,Somewhat vain,31 / 22 / 3 / 19 / 31 / 15,Peony,65275,,Xerxes Break – Pandora Hearts,"I was working on the completion of the X Pokédex, while hunting as a side. For now, I only had as a goal to get the 151 first Pokémon, excluded legendaries and non-available Pokémon.
 
 Arrived at Nidorina, I noticed how hard it is to find Moon Stones.
@@ -201,34 +201,34 @@ About half an hour later, I don't found any Moon Stone, but instead, it is a bro
 
 A False-Swipe hit, a Luxury Ball after hesitating with a Premier Ball, and there it goes.
 
-Named Break, referencing Xerxes Break that always have sweets.",,,,,,,,,#fcedc4
+Named Break, referencing Xerxes Break that always have sweets.",,,,,,,,,#fcedc4,
 0028,0053,Persian,,Mejojo,FireRed,Encounters,3238,Yes,14 November 2013,Route 6,10,Poké,Male,Docile,Limber,,12 / 1 / 31 / 24 / 10 / 15,Kamui,08475,,Mejojo von Garibaldi – Black Wolves Saga,"After each hunted Pokémon, it's a cat's turn. Today, after Litwick, it was Meowth.
 
 For this Pokémon, I chose Route 6 that is, in my opinion, its perfect habitat. Indeed, it finds food (Pidgey), a great body of water to drink, herb for the fur (Oddish) and nice high grass to make comfy nests.
 
 I was looking for Meowth on FireRed while looking for Moon Stones on X. Today, Swirlix arrived while I did not want him. While I did not expected to see any Shiny, be it Meowth or not. But it was while watching TV that he arrived, Meowth. I didn't believe it when I heard the shining sound.
 
-Illustration by ProfessorYaura.",,,11 November 2013,,,,,,#ded583
+Illustration by ProfessorYaura.",,,11 November 2013,,,,,,#ded583,
 0029,0131,Lapras,,Sage,X,Resets,1298,,17 November 2013,Route 12,30,Poké,Male,Docile,Water Absorb,Takes plenty of siestas,31 / 20 / 20 / 20 / 20 / 20,Peony,65275,,Sage d'Espérita – Les chevaliers d'Émeraude,"Discovering Lapras in X, I promised to myself that I would someday reset it, if it's possible. I later learned that it is indeed possible and place the hunt just after Meowth.
 
 Once Mejojo done, I start Lapras. Two days later, I decide on a nickname: Sage if male, Undine if female.
 
-The following day, I sit at the table to scan my drawings and there he arrived.",,,14 November 2013,,,,,,#af8bf2
+The following day, I sit at the table to scan my drawings and there he arrived.",,,14 November 2013,,,,,,#af8bf2,
 0030,0043,Oddish,,Nia Khera,X,Encounters,710,Espurr,18 November 2013,Route 6,12,Poké,Female,Bold,Chlorophyll,Takes plenty of siestas,31 / 31 / 13 / 16 / 7 / 8,Peony,65275,,Nia Khera – Tales of Xillia,"After Lapras, I wanted to get my cat, in other words Espurr.
 
 So, a day and 710 encounters later, it appears, shiny, but not feline. Oddish it was, while I was watching Psych.
 
-Illustration by ShatteredEarth on tumblr.",,,17 November 2013,,,,,,#72c64c
-0031,0278,Wingull,,Wingul,Black,Surfing,855,Yes,21 November 2013,Undella Bay,35,Premier,Male,Careful,Keen Eye,Good perseverance,30 / 07 / 12 / 16 / 17 / 28,Yesod,09561,,Wingul – Tales of Xillia,"Nothing much to say. After two females, I finally got the male I wanted. I did not hope it would be that quickly after the last Shiny.",Cute Charm for male,,18 November 2013,"Kanbalar,Riga",,,,,#73e642
+Illustration by ShatteredEarth on tumblr.",,,17 November 2013,,,,,,#72c64c,
+0031,0278,Wingull,,Wingul,Black,Surfing,855,Yes,21 November 2013,Undella Bay,35,Premier,Male,Careful,Keen Eye,Good perseverance,30 / 07 / 12 / 16 / 17 / 28,Yesod,09561,,Wingul – Tales of Xillia,"Nothing much to say. After two females, I finally got the male I wanted. I did not hope it would be that quickly after the last Shiny.",Cute Charm for male,,18 November 2013,"Kanbalar,Riga",,,,,#73e642,
 0032,0504,Patrat,,Osric,Black,Encounters,6743,Purrloin,12 December 2013,Dreamyard,8,Dive,Male,Naughty,Keen Eye,Scatters things often,28 / 20 / 1 / 24 / 25 / 2,Yesod,09561,,Osric – The Chronicle of Amber,"I was looking for a Purrloin for my Shiny cat army. I chose to hunt it on G5, first Black game, in the Dreamyard. I first hunted it with Repel, but as it bored me, I stopped the Repel.
 
-After 6 743 Pokémon, it's a Shiny Patrat that shows itself.",,,21 November 2013,,,,,,#318de3
+After 6 743 Pokémon, it's a Shiny Patrat that shows itself.",,,21 November 2013,,,,,,#318de3,
 0033,0577,Solosis,,Dalt,X,Random Masuda Eggs,,,12 December 2013,Camphrier Town,,Poké,Male,Adamant,Magic Guard,Proud of its power,5 / 25 / 7 / 14 / 21 / 11,Peony,65275,,Dalt – The Chronicle of Amber,"Today I was wanting to cover my back in case of encounter with a Shiny Geodude at the Victory Road. For this, I needed a Pokémon with Levitate and Psycho Shift, as I had no Air Balloon.
 
-Psycho Shift can be taught to a Chimcheo with breeding with a Solosis. I look into the computer: three Solosis. An English dad and his two child. And then I notice one of the child have a red star on its profile.",,,,,,,,,#54c2c4
+Psycho Shift can be taught to a Chimcheo with breeding with a Solosis. I look into the computer: three Solosis. An English dad and his two child. And then I notice one of the child have a red star on its profile.",,,,,,,,,#54c2c4,
 0034,0666,Vivillon,meadow,Aramis,X,Encounters,,Yes,27 December 2013,Santalune Forest,3,Heal,Male,Docile,Shield Dust,Capable of taking hits,7 / 1 / 31 / 19 / 0 / 27,Peony,65275,,Aramis Spring – Tales of the Abyss / Aramis – Musketeer le sang des chevaliers,"During a chat starting with the Pokémon Bank and ending with the Vivillon Hunt, I got the feel to hunt my first Vivillon.
 
-The same day, I started to hunt Scatterbug and found, in the evening of the same day, a white little Scatterbug that I quickly evolved into a Vivillon.",,,27 December 2013,,,,,,#979592
+The same day, I started to hunt Scatterbug and found, in the evening of the same day, a white little Scatterbug that I quickly evolved into a Vivillon.",,,27 December 2013,,,,,,#979592,
 0035,0313,Volbeat,,Gilbert,SoulSilver,Encounters,9048,Yes,09 January 2014,National Park,34,Sport,Male,Impish,Illuminate,Highly persistent,7 / 11 / 22 / 13 / 20 / 2,Yesod,18305,,Gilbert Nightray – Pandora Hearts,"Some time ago, I started hunting during the Bug Catching Contest on Pokémon SoulSilver.
 
 It was long, as I could only hunt three days per week, refusing to change the date, and I thought I missed a shiny.
@@ -239,7 +239,7 @@ I hunted then today, as I couldn't hunt last Tuesday. I think I did the contest 
 
 A magnificent Volbeat!
 
-I use False-Swipe, but the Volbeat use Protect, so I have to use False-Swipe another time and it leaves it more than 1 HP. Anyway, I throw a Sport Ball, I could still us another False-Swipe but it stayed in this first ball.",,,,,,,,,#65a6ff
+I use False-Swipe, but the Volbeat use Protect, so I have to use False-Swipe another time and it leaves it more than 1 HP. Anyway, I throw a Sport Ball, I could still us another False-Swipe but it stayed in this first ball.",,,,,,,,,#65a6ff,
 0036,0698,Amaura,,Amagami,X,Resets,200,,17 February 2014,Ambrette Town,20,Poké,Male,Gentle,Refrigerate,Somewhat of a clown,13 / 15 / 27 / 20 / 1 / 28,Peony,63361,,,"I decided, one day before the Tour de Kalos, to participate.
 
 Two days later, the Pokémon Bank is released and I start my game anew, and my participation.
@@ -258,7 +258,7 @@ And then, while watching dance on ice, exactly 200 resets later arrive this Amau
 
 I let out a small cry. One month and eight days without Shiny, knowing I hunted every day since. It was long! I informed the members on the shiny hunting chat. I got asked if it's a joke but no!
 
-Two saves, a renaming, a few pictures, et voilà!",,,17 February 2014,,,,,,#1bc0b2
+Two saves, a renaming, a few pictures, et voilà!",,,17 February 2014,,,,,,#1bc0b2,
 0037,0449,Hippopotas,,Ada,X,Encounters,,Percival,22 February 2014,Route 9,17,Poké,Female,Impish,Sand Stream,Quick to flee,19 / 7 / 1 / 11 / 5 / 24,Peony,63361,,Ada Vessalius – Pandora Hearts,"Third week of the Tour de Kalos.
 
 And luck is with me!
@@ -271,7 +271,7 @@ I was reading Howl’s Moving Castle and decided for “Percival” for a nickna
 
 It was this evening, while I was watching Harry Potter and the Chamber of Secrets that this unexpected guest shows herself. Thanks to Ada, I had the opportunity to try the False-Swiper Celebi and the conclusion is that a few more levels would be good.
 
-While waiting for the end of the step, I continue looking for Percival.",,,17 February 2014,,,,,,#a49743
+While waiting for the end of the step, I continue looking for Percival.",,,17 February 2014,,,,,,#a49743,
 0038,0702,Dedenne,,Saphir,X,Encounters,,Yes,03 March 2014,Route 11,27,Poké,Female,Impish,Cheek Pouch,Capable of taking hits,10 / 7 / 31 / 1 / 12 / 9,Peony,63361,,,"Fourth week of Tour de Kalos.
 
 I planned to hunt Dedenne.
@@ -286,7 +286,7 @@ But today I got lucky!
 
 A small adrenaline rush when I see the chocolate colour of Dedenne but a bit disappointed when seeing the ♀ symbol. Anyway!
 
-Though she was hard to catch. Celebi was still not at a good level and is a bad False-Swiper. I hope it'll be better later. In the worst case I still have an Absol.",Static,,12 February 2014,,,,,,#633f1d
+Though she was hard to catch. Celebi was still not at a good level and is a bad False-Swiper. I hope it'll be better later. In the worst case I still have an Absol.",Static,,12 February 2014,,,,,,#633f1d,
 0039,0661,Fletchling,,Hikaru,X,Encounters,900,Scatterbug,06 April 2014,Route 12,3,Poké,Female,Docile,Big Pecks,Quick tempered,6 / 24 / 17 / 21 / 7 / 23,Peony,49251,,Hikaru Shidô – Magic Knight Rayearth,"More than one month without Shiny. I never had such a big gap.
 
 Between the step of Tour de Kalos that went unsuccessful and the hunt of Meowth that went over 30 000 encounters, it started to be long.
@@ -303,7 +303,7 @@ A hit of False-Swipe (it was not needed) and I throw a Poké Ball.
 
 After a small search, I name her Hikaru for the character of Magic Knight Rayearth.
 
-21 hunts left to complete!",,,,,,,,,#e4c098
+21 hunts left to complete!",,,,,,,,,#e4c098,
 0040,0707,Klefki,,Alfred,X,Encounters,19313,Yes,20 April 2014,Route 16,34,Luxury,Male,Quirky,Prankster,Somewhat of a clown,10 / 25 / 22 / 12 / 6 / 28,Peony,49251,,Alfred – Snow Bound Land,"Hikaru have appeared. It was time to continue a hunt that have reached 10 000 encounters on X.
 
 It was during Tour of Kalos that I have started hunting on Route 16, not knowing what Pokémon I wanted to find.
@@ -316,10 +316,10 @@ About ten days and 19 313 finally were needed to saw it appears while, in the bo
 
 I removed my Magnetic Pull Nosepass to get my False-Swipe Absol then I hesitated on the Ball. My choice finally set on a Luxury Ball, he got inside it without issue.
 
-20 hunts left!",Magnet Pull,,,,,,,,#fefea9
+20 hunts left!",Magnet Pull,,,,,,,,#fefea9,
 0041,0133,Eevee,,Indignation,X,Masuda Eggs,,,25 April 2015,Route 7,,Poké,Female,Timid,Runaway,,31 / 19 / 31 / 31 / 27 / 31,Peony,49251,,,"I hunted this Eevee to giver her as a gift to my significant other. The idea was to get her to evolve into a Jolteon.
 
-Illustration by Mipiacedisegnare on Facebook.",,,,,,,,,#949484
+Illustration by Mipiacedisegnare on Facebook.",,,,,,,,,#949484,
 0042,0694,Helioptile,,Percival,X,Encounters,,Yes,28 April 2014,Route 9,,Repeat,Male,Hasty,Sand Veil,Alert to sounds,19 / 14 / 14 / 1 / 24 / 26,Peony,49251,,Percival – Howl's Moving Castle,"So… During Tour de Kalos I hunted Amaura during a step and then I moved to Helioptile once I got it.
 
 Unluckily, it was an Hippopotas that appeared. I resumed the hunt until the end of the step than resumed it again later.
@@ -330,7 +330,7 @@ A male, just as I wanted.
 
 I change Pikachu for Absol then throw a Repeat Ball with even doing False-Swipe and it get into it without issue.
 
-Illustration by PenAndPapers on NewGrounds.",Static,,,Ada,,,,,#ff7065
+Illustration by PenAndPapers on NewGrounds.",Static,,,Ada,,,,,#ff7065,
 0043,0001,Bulbasaur,,Ilyusha,X,Resets,2110,,30 April 2014,Lumiose City,10,Poké,Male,Serious,Overgrow,Hates to lose,22 / 1 / 26 / 14 / 28 / 4,Peony,49251,,Ilyusha Krat – 07-Ghost,"Percival have appeared! Hurrah! Hurrah!
 
 Right, it’s time to continue my other hunts. Ilyusha – or Lirin if female, Bulbasaur from Professor Sycamore.
@@ -341,25 +341,25 @@ So two days after the finding of Percival the Helioptile, there is Ilyusha that 
 
 It’s been a while I had no big reaction seeing a Shiny. For Ilyusha, I’ve let go the console (on the sofa, it didn’t fall on the floor) et let out a light “woah”.
 
-Next step: Elza the Litleo (male).",,,,,,,,,#a8e094
+Next step: Elza the Litleo (male).",,,,,,,,,#a8e094,
 0044,0298,Azurill,,Random,X,Encounters,3429,Litleo,04 May 2014,Route 22,7,Nest,Male,Careful,Huge Power,Capable of taking hits,31 / 10 / 31 / 31 / 0 / 19,Peony,49251,,Random – The Chronicle of Amber,"I was looking for Litleo (or at worst Bunnelby) for this hunt started during the first step of the contest Tour de Kalos, praying for not getting a Bidoof or a Riolu (knowing that, strangely, I would have prefered getting another Bidoof than another Riolu).
 
 Wanting a male Litleo, I used a young Wigglytuff with Cute Charm to attract males. But it was not a Litleo but a young Azurill.
 
 One hunt left to complete on X and 17 total!
 
-Illustration by Astr0nautical on DeviantArt.",Cute Charm for males,,12 February 2011,,,,,,#84e880
+Illustration by Astr0nautical on DeviantArt.",Cute Charm for males,,12 February 2011,,,,,,#84e880,
 0045,0052,Meowth,,Auger,FireRed,Encounters,51547,Yes,12 August 2014,Route 5,12,Poké,Male,Brave,Pick Up,,6 / 20 / 7 / 6 / 9 / 22,Kamui,08475,,Auger von Garibaldi – Black Wolves Saga,"After 98 days without Shiny, this one appeared. I hunted it since beginning of January.
 
 So far it is my longest hunt, so much it became almost legendary in the communities I was in. It lasted so long I thought I was cursed and would find a Pidgey instead, or even a female Meowth, as I was specifically looking for a male.
 
-The capture was rather straightforward: I put it asleep with Sleep Powder and threw a Poké Ball and that was it.",,,,,,,,,#fa7585
-0046,0513,Pansear,,Brand,Y,Encounters,,Rotelro,05 October 2014,Santalune Forest,4,Poké,Male,Bold,Gluttony,Likes to thrash about,19 / 31 / 18 / 9 / 27 / 9,Jade,51536,,Brand – The Chronicle of Amber,"After taking the Y game of my significant other and starting a new game, I hunted a Scatterbug but it was this Pansear that crossed my road.",,,,,,,,,#feaf52
+The capture was rather straightforward: I put it asleep with Sleep Powder and threw a Poké Ball and that was it.",,,,,,,,,#fa7585,
+0046,0513,Pansear,,Brand,Y,Encounters,,Rotelro,05 October 2014,Santalune Forest,4,Poké,Male,Bold,Gluttony,Likes to thrash about,19 / 31 / 18 / 9 / 27 / 9,Jade,51536,,Brand – The Chronicle of Amber,"After taking the Y game of my significant other and starting a new game, I hunted a Scatterbug but it was this Pansear that crossed my road.",,,,,,,,,#feaf52,
 0047,0263,Zigzagoon,,Clarissa,Ruby,Encounters,2351,Zigzagoon ♂,05 October 2014,Route 117,13,Poké,Female,Impish,Pick Up,,30 / 5 / 25 / 20 / 15 / 21,Athos,12692,,Clarissa Handrel – The Chronicle of Amber,"I have started the hunt during a thematic hunting night and then converted it into a race.
 
 At the start, I wanted a male.
 
-Today I hunted a Vivillon on Y and found a Pansear. Continuing, my console told me it wants energy so I changed game. Ruby on emulator. It's barely about thirty encounters later that a female Zigzagoon appears.",,,,,,,,,#e8a048
+Today I hunted a Vivillon on Y and found a Pansear. Continuing, my console told me it wants energy so I changed game. Ruby on emulator. It's barely about thirty encounters later that a female Zigzagoon appears.",,,,,,,,,#e8a048,6B063075
 0048,0157,Typhlosion,,Erston,Gold,Resets,,,23 October 2014,Professor Elm's Lab,5,Poké,Male,,,,,Gaius,14718,,Erston Outway – Tales of Xillia,"I hunt on old games! (Ok yes it's an emulator…)
 
 I had started, long ago, a number of hunts, including Cyndaquil on Gold.
@@ -370,21 +370,21 @@ In the middle of a battle, I ask them to watch my phone: a shiny Cyndaquil!
 
 He will evolve into Typhlosion.
 
-Illustration by ginja_K_ninja on furaffinity.",,,,,,,,,#b5009c
+Illustration by ginja_K_ninja on furaffinity.",,,,,,,,,#b5009c,
 0049,0154,Meganium,,Li Ying,Silver,Resets,,,29 October 2014,Professor Elm's Lab,5,Poké,Male,,,,,Wingul,48374,,Li Ying Long Dau – Tales of Xillia,"At the same time as I started Cyndaquil, I also started Chikorita on Silver (and Totodile on Crystal).
 
 As usual, I was hunting before my lessons while doing other things (there I was playing Musketeer: le sang des chevaliers, and progressing on Pokémon X).
 
 And suddenly, he appears!
 
-He will evolve into Meganium.",,,,,,,,,#c5c500
+He will evolve into Meganium.",,,,,,,,,#c5c500,
 0050,0257,Blaziken,,Chamo,Sapphire,Resets,2730,,07 December 2014,Route 101,5,Poké,Female,Adamant,Blaze,,14 / 14 / 18 / 3 / 4 / 19,Ukyo,50165,,Chamo / Chic / Poussi – Pocket Monsters SPECIAL,"I started this hunt long ago, with a few others.
 
 But I didn't do it for long.
 
 I had changed the battery of the game but it quickly got empty. One or two months ago, my significant other changed the battery of their Crystal game and I asked them to change the one of my Sapphire game, as they were at it.
 
-I resumed my Torchic hunt, yesterday, after my battery said stop"" for my Litwick hunt on other consoles. And tonight, a bit of time after the advertising on TF1 channel, appears this beauty.""",,,,,,,,,#691707
+I resumed my Torchic hunt, yesterday, after my battery said stop"" for my Litwick hunt on other consoles. And tonight, a bit of time after the advertising on TF1 channel, appears this beauty.""",,,,,,,,,#691707,BCBB600C
 0051,0204,Pineco,,Luka,White,Swarm Encounters,2565,Yes,03 January 2015,Route 16,30,Timer,Male,Impish,Sturdy,Likes to thrash about,19 / 26 / 24 / 1 / 15 / 24,Shuuan,45351,,Luka – AMNESIA CROWD,"A new hunt over!
 
 So, after Chamo the Torchic, I continues a race hunt with someone else (Kabuto VS Omanyte) where I got beaten.
@@ -401,12 +401,12 @@ As I hadn’t heard the shining, I am wondering if I didn’t miss another shini
 
 A hit of False-Swipe, a Timer Ball, and there it was. Now the hardest: find a name. Yoshimoto came to mind but… No. I came back to my computer and a music came to the player: “Ray – Recall”, ending of the anime AMNESIA. So why not “Luka”? It’s a character of AMNESIA CROWD. And so it got named Luka.
 
-Next hunt: Turtwig on Pearl, racing with a Treecko on OR/AS",,,,,,,,,#ae7d5d
+Next hunt: Turtwig on Pearl, racing with a Treecko on OR/AS",,,,,,,,,#ae7d5d,
 0052,0160,Feraligatr,,Mist,Crystal,Resets,,,24 February 2015,Professor Elm's Lab,5,Poké,Male,,,,,Presa,35542,,Raging Mist – Tales of Xillia,"I compelted Omega Ruby today. The league yesterday and the Delta Episode today.
 
 So I returned to hunting while reading the most boring thing I have: lessons. About European Union.
 
-I barely have started the second (or third) page of the chapter 6 that he appeared on the screen: the sign that my 18th current hunt is over, Mist the pretty boy!",,,,,,,,,#6038f8
+I barely have started the second (or third) page of the chapter 6 that he appeared on the screen: the sign that my 18th current hunt is over, Mist the pretty boy!",,,,,,,,,#6038f8,
 0053,0136,Flareon,,Rita,SoulSilver,Resets,~14334,,05 April 2015,Celadon City,15,Poké,Female,,Bold,,13 / 3 / 20 / 6 / 13 / 29,Yesod,18305,,Rita Mordio – Tales of Vesperia,"It was for a contest that I have started hunting Eevee. Or rather, a big race. The race was completed quicky without a result for me. Though, I don't give up, and decided to continue.
 
 The planned nicknamed was these: Rita if female that would evolve into Flareon, Rochefort if male that wouldn't evolve.
@@ -429,7 +429,7 @@ I was expecting so much to get Rochefort that I wasn't thinking I could get Rita
 
 I quickly saved my two games (Pokémon and Hakuoki) and used one of the extra of Hakuoki to make a nice picture of my little girl. It was a moment since I wanted to try this.
 
-For the next hunt, I don't know yet. Maybe I'll continue Litwick.",,,,,,,,,#dfa63c
+For the next hunt, I don't know yet. Maybe I'll continue Litwick.",,,,,,,,,#dfa63c,
 0054,0066,Machop,,Deela,Ruby,Encounters,5535,Numel,12 July 2015,Route 112,15,Great,Female,Gentle,Guts,,31 / 23 / 10 / 8 / 28 / 29,Athos,12692,,Deela – The Chronicle of Amber,"It was for the SBQ that I started hunting on Route 112.
 
 I had looked what I could find there and wanted Numel. So I chose the place with the highest encounter rate.
@@ -468,7 +468,7 @@ Well, I just had to keep sending Balls. I chose Great Balls.
 
 3rd: Now it's good.
 
-Now I'm probably going to continue Feebas on Diamond.",,,,,,,,,#968e5d
+Now I'm probably going to continue Feebas on Diamond.",,,,,,,,,#968e5d,D2798908
 0055,0130,Gyarados,,Koinobori,Diamond,Super Rod Fishing,2852,Feebas,14 July 2015,Mt. Coronet,48,Repeat,Female,Quirky,Intimidate,,3 / 22 / 11 / 5 / 15 / 20,Konata,17220,,Koinobori,"I had decided to start a long hunt: Feebas on Diamond without changing the game's time that would have kept the spot.
 
 I probably found the Feebas spot only five or six time. Yesterday, I had found it and have started hunting on it.
@@ -487,7 +487,7 @@ The only issue, I had no nickname for this beast. Without diminishing its HPs, I
 
 Right, the nickname. The only I had was for a male. And then I remembered that Gyarados looks like a Koinobori.
 
-So, Koinobori.",,,,,,,,,#be1c3c
+So, Koinobori.",,,,,,,,,#be1c3c,
 0056,0609,Chandelure,,サイ,Black,Encounters,17458,Yes,01 September 2015,Celestial Tower,28,Ultra,Female,,Quirky,,25 / 30 / 5 / 15 / 24 / 24,カンベエ,11672,,Sai – Fragile Dreams ~Farewell Ruins of the Moon~,"It's to complete the family, and continue a stupid project, that I had started a new Litwick, at the same place as the other two.
 
 This time I hoped it wouldn't come after 20 000 encounters, like Rinaldo did.
@@ -504,7 +504,7 @@ Photo / Video, the battle was… There was no battle in fact. I haven't weakened
 
 Full life, one ball, it was done.
 
-Next: Dialga from Sinjoh Ruins.",Illuminate,,,,,,,,#ff8c10
+Next: Dialga from Sinjoh Ruins.",Illuminate,,,,,,,,#ff8c10,
 0057,0666,Vivillon,marine,Rotelro,X,Resets,Above 6419,Yes,22 January 2016,Route 7,15,Dive,Female,Brave,,,0 / 18 / 29 / 3 / 22 / 11,Peony,07807,,Rotelro Bridge – Tales of the Abyss,"So… I started it so long ago that I don’t remember how it started. I remember that after getting my first Vivillon, I tried to get another one on the Y game of my significant other.
 
 This hunt ended with a Pansear.
@@ -519,22 +519,22 @@ Yesterday, I was playing with my significant other at Age of Mythology. After be
 
 The battle was quick: I had no False-Swiper so I planned to harass it of balls. Dive Ball. One was enough!
 
-After getting the photos and videos, I gave it a Rare Candy and Rotelro became a pretty Vivillon!",,,,Brand,,,,,#72cbeb
+After getting the photos and videos, I gave it a Rare Candy and Rotelro became a pretty Vivillon!",,,,Brand,,,,,#72cbeb,
 0058,0004,Charmander,,Calcifer,X,Resets,432,,02 June 2016,Lumiose City,10,Poké,Male,Hasty,Blaze,Likes to run,3 / 14 / 17 / 2 / 8 / 20,Peony,07807,,Calcifer – Howl's Moving Castle,"When I started Pokémon X over the last time, I choose Charmander without taking it, to reset it later.
 
 As I planned to start the game over again, I decided to put these resets in my hunt alternance.
 
 So I was gone for 1000 resets.
 
-Today, exactly six day after starting, I noticed the red star on my Pokémon, while I was waiting for my computer to restart after a freeze.",,,27 May 2016,,4 082,,,,#ffbf57
+Today, exactly six day after starting, I noticed the red star on my Pokémon, while I was waiting for my computer to restart after a freeze.",,,27 May 2016,,4 082,,,,#ffbf57,
 0059,0006,Charizard,,Soji,LeafGreen,Resets,Above 2021,,21 September 2016,Pallet Town,5,Poké,Male,Gentle,,,9 / 26 / 29 / 4 / 28 / 18,Rose,20848,,Sôji Okita – Hakuôki,"This hunt have been started long ago. I had in mind to reset Suicune on FireRed and, after that, to hunt the other starters and the roaming legendary associated. The only issue, the Charmander of this game was not shiny.
 
 So I decided to hunt Charmander and only him on LeafGreen, so I would get the three starters at the end of the project.
 
 Of this hunt, I progressed a lot without counting. In the end, what I have not counted must be higher than what I have coounted.
 
-Finally, I decided to hunt a bit at work, as I was alone. It's then that he appeared.",,,12 February 2011,,4069,,,,#628383
-0060,0336,Seviper,,Lastalia,Sapphire,Encounters,Above 4362,Swablu,24 November 2016,Route 114,17,Great,Female,Jolly,,,11 / 11 / 19 / 0 / 11 / 25,Ukyo,50165,,Lastalia – Tales of Graces,"This hunt was my very first hunt. I wanted, at a moment in time, find a Shiny Swablu on my Sapphire game. I did it at the same time as Zangoose eggs. Though I never went very far on this.
+Finally, I decided to hunt a bit at work, as I was alone. It's then that he appeared.",,,12 February 2011,,4069,,,,#628383,
+0060,0336,Seviper,,Lastalia,Sapphire,Encounters,Above 4362,Swablu,24 November 2016,Route 114,17,Great,Female,Jolly,Shed Skin,,11 / 11 / 19 / 0 / 11 / 25,Ukyo,50165,,Lastalia – Tales of Graces,"This hunt was my very first hunt. I wanted, at a moment in time, find a Shiny Swablu on my Sapphire game. I did it at the same time as Zangoose eggs. Though I never went very far on this.
 
 It’s only recently that I decided to resume this hunt with the intent to complete it, because, after all, I don’t like giving up. After a bit of researches, to maximise my chances to get Swablu, I decided to use a level 17 Repellent.
 
@@ -554,7 +554,7 @@ The hardest was to find a nickname. For a male, I would have found one without i
 
 Finally I called her “Lastalia”, as I was playing Tales of Graces f when she appeared.
 
-Illustration by pen-papers on tumblr.",Repel Level 17,,,,,,,,#395a8b
+Illustration by pen-papers on tumblr.",Repel Level 17,,,,,,,,#395a8b,879E5B2C
 0061,0546,Cottonee,,Faiella,Sun,Random S.O.S. Encounter,,,03 December 2016,Malie Garden,25,Premier,Female,Lonely,Prankster,Somewhat vain,23 / 22 / 16 / 16 / 26 / 2,Kou,524656,0759,Faiella – The Chronicle of Amber,"When I do a game's adventure, I never have luck with shinies, I never find any randomly.
 
 As for Sun, it was starting the same. Would it have not been for my decision to complete the Pokédex a bit before ending the game.
@@ -569,7 +569,7 @@ Food break.
 
 I come back, awake my console. Oh, a shiny Cottonee. My only reaction was a sigh. It was a bit my fear to find a shiny with this method as I prefer getting full rate shinies.
 
-Though I don't say no to a Shiny. I defeated the other Pokémon before trying to catch this one. Not knowing which Ball to use, I chose the Premier Ball.",,,,,,,,,#febb44
+Though I don't say no to a Shiny. I defeated the other Pokémon before trying to catch this one. Not knowing which Ball to use, I chose the Premier Ball.",,,,,,,,,#febb44,
 0062,0129,Magikarp,,Marta,Sun,Random Fishing,,,07 December 2016,Poni Wilds,30,Poké,Female,Gentle,Swift Swim,Nods off a lot,26 / 21 / 16 / 21 / 12 / 7,Kou,524656,0759,Marta Lualdi – Tales of Symphonia Dawn of the New World,"This time, I was looking for a Relicanth while fishing to complete the Pokédex.
 
 At 1% encounter rate, it takes a lot of time to find one, as Magikarps appears often.
@@ -578,7 +578,7 @@ And then at a moment, a yellow Magikarp appeared.
 
 I haven't seen the stars but I had no use of it. I didn't know in which ball to put it so I chose a Poké Ball.
 
-One and it was over.",,,,,,,,,#f3c55d
+One and it was over.",,,,,,,,,#f3c55d,
 0063,0703,Carbink,,Kunzite,Sun,Random Encounter,,,08 December 2016,Vast Poni Canyon,41,Ultra,,Naive,Clear Body,Likes to relax,29 / 14 / 17 / 2 / 12 / 27,Kou,524656,0759,Kunzite – Tales of Hearts,"My goal, it was a Kommo-o. I needed then to find a Jangmo-o and make it call another Pokémon.
 
 I already had a very long battle where no Kommo-o wanted to come and I unfortunately killed the other one.
@@ -587,12 +587,12 @@ So while I was looking for a Jangmo-o, a Carbink appeared, of a different color.
 
 Two Shinies in two days.
 
-What is funny, is that at the same time I was wondering what colour it have in Shiny.",,,,,,,,,#98f6ff
+What is funny, is that at the same time I was wondering what colour it have in Shiny.",,,,,,,,,#98f6ff,
 0064,0080,Slowbro,,Oberon,Sun,Random S.O.S. Encounter,,,09 December 2016,Kala'e Bay,18,Luxury,Male,Quirky,Own Tempo,Somewhat vain,9 / 15 / 29 / 6 / 31 / 5,Kou,524656,0759,Oberon – The Chronicle of Amber,"This time, I was looking for a King's Rock. On Slowbros.
 
 So I had found a Slowpoke and was waiting for it to call Slowbros.
 
-Of course, my fear was to find a S.O.S. Shiny with lower rate. Well, that happened!",,,,,,,,,#897ebb
+Of course, my fear was to find a S.O.S. Shiny with lower rate. Well, that happened!",,,,,,,,,#897ebb,
 0065,0102,Exeggcute,,Phoebe,Sun,Random S.O.S. Encounter,,,13 January 2017,Exeggutor Island,12,Dusk,Female,Quirky,,Nods off a lot,31 / 19 / 9 / 2 / 23 / 8 / 92,Kou,524656,0759,Phoebe Buffay – Friends,"Castform doesn't exist, it's a legend.
 
 It's on this state that I was looking for it to complete the Pokédex.
@@ -603,7 +603,7 @@ And it appeared. The Shiny Exeggcute.
 
 I did no photo nor video.
 
-Though the next day, Castform appeared to prove it's not a legend!",,,,,,,,,#f5cc6d
+Though the next day, Castform appeared to prove it's not a legend!",,,,,,,,,#f5cc6d,
 0066,0652,Chesnaught,,Engeve,Y,Resets,Above 6016,,26 January 2017,Aquacorde Town,5,Poké,Male,Serious,,Highly persistent,4 / 21 / 22 / 0 / 2 / 2,Nephry,62629,,Engeve – Tales of the Abyss,"It was a hunt I have started long ago, even before Omega Ruby and Alpha Sapphire got released.
 
 After Fennekin arriving that quickly, I had no hope it would appears rapidly.
@@ -614,9 +614,9 @@ And that’s today that it finally arrived!
 
 While I usually have very few reactions, I’ve let a big “OH” when I saw it.
 
-Next Hunt: Kabuto!",,,,,6190,,,,#849460
-0067,0140,Kabuto,,Vicalle,FireRed,Resets,5780,,28 July 2017,Cinnabar Island,15,Poké,Male,Careful,,,27 / 20 / 3 / 20 / 13 / 26,Kamui,08475,,Old Vicalle Mine – Tales of Xillia,Illustration by Retratosanime on ArtStation.,,,,,,,,,#9ccd39
-0068,0025,Pikachu,,Pika,Emerald,Encounters,8912,Natu,21 December 2017,Safari Zone,25,Safari,Male,Relaxed,,,,Yesod,34513,57586,Pika – Pokémon Adventures,Illustration by Joana-the-Raichu on DeviantArt.,,,,,,,,,#f0c820
+Next Hunt: Kabuto!",,,,,6190,,,,#849460,
+0067,0140,Kabuto,,Vicalle,FireRed,Resets,5780,,28 July 2017,Cinnabar Island,15,Poké,Male,Careful,,,27 / 20 / 3 / 20 / 13 / 26,Kamui,08475,,Old Vicalle Mine – Tales of Xillia,Illustration by Retratosanime on ArtStation.,,,,,,,,,#9ccd39,
+0068,0025,Pikachu,,Pika,Emerald,Encounters,8912,Natu,21 December 2017,Safari Zone,25,Safari,Male,Relaxed,,,,Yesod,34513,57586,Pika – Pokémon Adventures,Illustration by Joana-the-Raichu on DeviantArt.,,,,,,,,,#f0c820,
 0069,0483,Dialga,,Sekundes,HeartGold,Resets,,,08 November 2018,Sinjoh Ruins,1,Poké,,Bold,,Impetuous and silly,,Rita,49663,,Sekundes – Tales of Eternia,"I started this hunt knowing it would be very long.
 
 Sinjoh Ruins resets, with the cutscene takes over 3 minutes to be done.
@@ -625,72 +625,72 @@ Also, many told me this Pokémon can't be shiny, that the eggs from Sinjoh Ruins
 
 Well, now that it's there, I guess some would still don't believe it, thinking I used a cheat. Not that it matters much to me.
 
-Illustration by cry4nne on tumblr.",,,,,,,,,#18cece
-0070,0504,Patrat,,Harla,Black,Encounters,,,30 December 2018,Route 1,4,Dive,Female,Bashful,Run Away,Scatters things often,28 / 13 / 14 / 19 / 3 / 23,Yesod,09561,,Harla – The Chronicle of Amber,Illustration by PenAndPapers on NewGrounds.,,,,,,,,,#b5e629
-0071,0387,Turtwig,,TORTIPOUSS,Pearl,Resets,,,,Lake Verity,5,Poké,,,,,,,,,,"I have started this hunt long ago. While I keep no trace of it, I know I have completed it, but the game is stuck in a box until house moving.",,,,,,,,,#86cfb6
-0072,0019,Rattata,,Marie,FireRed,Encounters,,,07 September 2019,Route 1,3,Hyper,Female,Lax,Runaway,,18 / 22 / 13 / 2 / 3 / 21,Kamui,08475,,,I have no recollection of her besides this picture and a note on her capture. I don't even remember why I named her Marie.,,,,,,,,,#cdbd7b
+Illustration by cry4nne on tumblr.",,,,,,,,,#18cece,
+0070,0504,Patrat,,Harla,Black,Encounters,,,30 December 2018,Route 1,4,Dive,Female,Bashful,Run Away,Scatters things often,28 / 13 / 14 / 19 / 3 / 23,Yesod,09561,,Harla – The Chronicle of Amber,Illustration by PenAndPapers on NewGrounds.,,,,,,,,,#b5e629,
+0071,0387,Turtwig,,TORTIPOUSS,Pearl,Resets,,,,Lake Verity,5,Poké,,,,,,,,,,"I have started this hunt long ago. While I keep no trace of it, I know I have completed it, but the game is stuck in a box until house moving.",,,,,,,,,#86cfb6,
+0072,0019,Rattata,,Marie,FireRed,Encounters,,,07 September 2019,Route 1,3,Hyper,Female,Lax,Runaway,,18 / 22 / 13 / 2 / 3 / 21,Kamui,08475,,,I have no recollection of her besides this picture and a note on her capture. I don't even remember why I named her Marie.,,,,,,,,,#cdbd7b,
 0073,0031,Nidoqueen,,Nido-chan,LeafGreen,Encounters,,Yes,01 December 2019,Route 3,6,Poké,Female,Timid,Poison Point,,8 / 11 / 24 / 26 / 6 / 15,Rose,20848,,Nido-chan – Pokémon Special,"I have noted the meeting of a Shiny Mankey that I had run and it intrigued me greatly. In what circumstances have I met this Mankey?
 
 This stayed a mystery until I found my LeafGreen game and turned it on: there I see a shiny Nidoran I have totally forgotten about.
 
-I found traces of the encounter on my old Twitter account, thus giving me at least the encounter date.",,,,Mankey,,,,,#b494cd
-0074,0265,Wurmple,,Tite Pote,Legends: Arceus,Random Encounter,,,30 January 2022,Horseshoe Plains,2,Poké,Female,Calm,,,,Soichi,045036,,Lil Pal,,,,,,,0.26m,2.86kg,,#b369bd
-0075,0267,Beautifly,,Fiona,Legends: Arceus,Random Encounter Mass Outbreak,,,02 February 2022,Grueling Grove,23,Poké,Female,Lonely,,,,Soichi,045036,,French Default Name,,,,,,,0.99m,33.18kg,,#f0e5bb
-0076,0415,Combee,,Jurt,Legends: Arceus,Random Encounter,,,02 February 2022,Obsidian Fieldlands,28,Great,Male,Hardy,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.90m,19.80kg,alpha,#eb9668
-0077,0426,Drifblim,,Sand,Legends: Arceus,Random Surfing,,,11 February 2022,Tranquility Cove,31,Poké,Male,Mild,,,,Soichi,045036,,Chronicles of Amber,,,,,,,1.24m,16.13kg,,#cdbb50
-0078,0190,Aipom,,Despil,Legends: Arceus,Random Encounter,,,11 February 2022,Alabaster Icelands,60,Poké,Male,Docile,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.78m,12.62kg,,#d6779f
-0079,0431,Glameow,,Deirdre,Legends: Arceus,Random Encounter,,,12 February 2022,Cobalt Coastlands,34,Poké,Female,Calm,,,,Soichi,045036,,Deirdre – Chronicles of Amber,,,,,,,0.52m,3.96kg,,#c294c4
-0080,0406,Budew,,Morganthe,Legends: Arceus,Random Encounter,,,13 February 2022,Fabled Spring,46,Poké,Female,Sassy,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.22m,1.27kg,,#c294c4
-0081,0404,Luxio,,Merlin,Legends: Arceus,Random Encounters,,,13 February 2022,Heavenward Lookout,29,Poké,Male,Quiet,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.79m,29.99kg,,#d8ba4e
-0082,0676,Furfrou,,Shawa,X,Eggs,,,16 September 2022,Route 7,1,Poké,Male,Docile,Fur Coat,Likes to thrash about,22 / 31 / 19 / 31 / 29 / 9,Peony,07807,,,,,,,,,,,,#686074
-0083,0343,Baltoy,,Sparkle,GO,Encounters,,,23 April 2023,Uhlwiller,,Ultra,,,,,,Literya,,,Sparkle – Honkai Star Rail,,,,,,,0.42m,18.18kg,,#6bf7ce
-0084,0023,Ekans,,Spinel,GO,Encounters,,,23 May 2023,Kehl,,Great,Female,,,,,Literya,,,Spinel – Virche Evermore -EpiC:Lycoris-,,,,,,,1.65m,6.17kg,,#b4ce90
+I found traces of the encounter on my old Twitter account, thus giving me at least the encounter date.",,,,Mankey,,,,,#b494cd,
+0074,0265,Wurmple,,Tite Pote,Legends: Arceus,Random Encounter,,,30 January 2022,Horseshoe Plains,2,Poké,Female,Calm,,,,Soichi,045036,,Lil Pal,,,,,,,0.26m,2.86kg,,#b369bd,
+0075,0267,Beautifly,,Fiona,Legends: Arceus,Random Encounter Mass Outbreak,,,02 February 2022,Grueling Grove,23,Poké,Female,Lonely,,,,Soichi,045036,,French Default Name,,,,,,,0.99m,33.18kg,,#f0e5bb,
+0076,0415,Combee,,Jurt,Legends: Arceus,Random Encounter,,,02 February 2022,Obsidian Fieldlands,28,Great,Male,Hardy,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.90m,19.80kg,alpha,#eb9668,
+0077,0426,Drifblim,,Sand,Legends: Arceus,Random Surfing,,,11 February 2022,Tranquility Cove,31,Poké,Male,Mild,,,,Soichi,045036,,Chronicles of Amber,,,,,,,1.24m,16.13kg,,#cdbb50,
+0078,0190,Aipom,,Despil,Legends: Arceus,Random Encounter,,,11 February 2022,Alabaster Icelands,60,Poké,Male,Docile,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.78m,12.62kg,,#d6779f,
+0079,0431,Glameow,,Deirdre,Legends: Arceus,Random Encounter,,,12 February 2022,Cobalt Coastlands,34,Poké,Female,Calm,,,,Soichi,045036,,Deirdre – Chronicles of Amber,,,,,,,0.52m,3.96kg,,#c294c4,
+0080,0406,Budew,,Morganthe,Legends: Arceus,Random Encounter,,,13 February 2022,Fabled Spring,46,Poké,Female,Sassy,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.22m,1.27kg,,#c294c4,
+0081,0404,Luxio,,Merlin,Legends: Arceus,Random Encounters,,,13 February 2022,Heavenward Lookout,29,Poké,Male,Quiet,,,,Soichi,045036,,Chronicles of Amber,,,,,,,0.79m,29.99kg,,#d8ba4e,
+0082,0676,Furfrou,,Shawa,X,Eggs,,,16 September 2022,Route 7,1,Poké,Male,Docile,Fur Coat,Likes to thrash about,22 / 31 / 19 / 31 / 29 / 9,Peony,07807,,,,,,,,,,,,#686074,
+0083,0343,Baltoy,,Sparkle,GO,Encounters,,,23 April 2023,Uhlwiller,,Ultra,,,,,,Literya,,,Sparkle – Honkai Star Rail,,,,,,,0.42m,18.18kg,,#6bf7ce,
+0084,0023,Ekans,,Spinel,GO,Encounters,,,23 May 2023,Kehl,,Great,Female,,,,,Literya,,,Spinel – Virche Evermore -EpiC:Lycoris-,,,,,,,1.65m,6.17kg,,#b4ce90,
 0085,0009,Blastoise,,Crius,Sleep,,,,8 October 2024,Greenglass Isle,6,,Male,Hasty,,,,,,,"Crius – Even:if Tempest
-",,,,,,,,,,#ccbcef
+",,,,,,,,,,#ccbcef,
 0086,0019,Rattata,,Mithos,Silver,Encounters,,,02 March 2025,Route 29,4,Poké,Male,,,,8 / 15 / 10 / 10 / 10 / 10,Abraham,61527,,Mithos Yggdrasill – Tales of Symphonia,"I started to hunt in commute as a way to busy my hands while reading. I just took the first game I found and it turned out to be Silver.
 
 But this evening it was at home while watching TV.
 
 He was not weakened before being caught. He got caught in 3 Pokeballs.
 
-Strangely, a few days ago, I dreamt of finding a shiny Rattata. Though it looked more yellow in my dream. If I had no sound I would probably not noticed it's shiny.",,,20 February 2025,,,,,,#b7bf9f
+Strangely, a few days ago, I dreamt of finding a shiny Rattata. Though it looked more yellow in my dream. If I had no sound I would probably not noticed it's shiny.",,,20 February 2025,,,,,,#b7bf9f,
 0087,0074,Geodude,,Strohl,Silver,Encounters,,Dunsparce,24 March 2025,Dark Cave,3,Poké,Male,,,,8 / 11 / 10 / 10 / 10 / 10,Abraham,61527,,Strohl – Metaphor: ReFantazio,"So, after Rattata, I continued hunting on the next road before thinking I did not want another Rattata, and in fact would prefer a Ledyba. So as it was night, I decided to go to the Dark Cave instead, with the hope of finding a Dunsparce.
 
 I had caught a Bellsprout to get Sleep Powder to make the capture easier and put it to good use when the Geodude appeared. Then, it took 3 Poké Balls to get it caught.
 
-As the previous Pokémon, would I not have the sound, I wouldn't have noticed it's shiny.",,,02 March 2025,,,,,,#c58c7b
-0088,0446,Munchlax,,Bee,Legends: Arceus,Random Encounter Mass Outbreak,,,12 April 2025,Arena's Approach,56,Great,Male,Naive,,,,Soichi,045036,,Pokémon Manga,,,,,,,0.64m,93.26kg,,#3d68ab
-0089,0213,Shuckle,,Arvid,GO,Encounters,,,21 April 2025,Schweighouse-sur-Moder,,Ultra,Male,,,,,Literya,,,Arvid Lindblad,,,,,,,0.53m,17.01kg,,#3288f9
-0090,0906,Sprigatito,,Nadia,GO,Encounters,,,21 April 2025,Wintershouse,,Great,Female,,,,,Literya,,,Nadia Proust – Virche Evermore,,,,,,,0.48m,6.34kg,,#a282ce
-0091,0225,Delibird,,Cheria,GO,Encounters,,,24 April 2025,Kehl,,Ultra,Female,,,,,Literya,,,Cheria Barnes – Tales of Graces,,,,,,,1.01m,24.71kg,,#a282ce
+As the previous Pokémon, would I not have the sound, I wouldn't have noticed it's shiny.",,,02 March 2025,,,,,,#c58c7b,
+0088,0446,Munchlax,,Bee,Legends: Arceus,Random Encounter Mass Outbreak,,,12 April 2025,Arena's Approach,56,Great,Male,Naive,,,,Soichi,045036,,Pokémon Manga,,,,,,,0.64m,93.26kg,,#3d68ab,
+0089,0213,Shuckle,,Arvid,GO,Encounters,,,21 April 2025,Schweighouse-sur-Moder,,Ultra,Male,,,,,Literya,,,Arvid Lindblad,,,,,,,0.53m,17.01kg,,#3288f9,
+0090,0906,Sprigatito,,Nadia,GO,Encounters,,,21 April 2025,Wintershouse,,Great,Female,,,,,Literya,,,Nadia Proust – Virche Evermore,,,,,,,0.48m,6.34kg,,#a282ce,
+0091,0225,Delibird,,Cheria,GO,Encounters,,,24 April 2025,Kehl,,Ultra,Female,,,,,Literya,,,Cheria Barnes – Tales of Graces,,,,,,,1.01m,24.71kg,,#a282ce,
 0092,0915,Lechonk,,Kinta,Scarlet,Random Encounter,,,16 June 2025,South Province (Area Four),18,Poké,Female,Calm,Gluttony,Somewhat vain,,Ayato,516057,,Kinta – The Chronicles of Amber,"This is a random find as I was wandering on Scarlet, catching Pokémon and checking where I can go with my current progress.
 
 I was craving for a Shiny as it was 84 days of hunting since the last Shiny and nothing appeared, and seeing two Shinies appear on the game of my significant other.
 
-It is clearly not what I expected but I still take it.",,,,,,,,,#e994b8
+It is clearly not what I expected but I still take it.",,,,,,,,,#e994b8,
 0093,0443,Gible,,Lintra,Scarlet,Random Encounter,,,17 June 2025,Alfornada Cavern,41,Ultra,Female,Mild,Sand Veil,Often lost in thought,,Ayato,516057,,Lintra – The Chronicles of Amber,"Again I was just wandering around, trying to get to a place I haven't visited yet (Alfornada). I was a bit concerned because the Pokémon of the area are of a higher level than what I'm used to and close to my Pokémon levels so I decided to not do any battle there yet.
 
 And on my way, I notice a Gible that, I think at that time, looks like a Gabite. I quickly understood it's a shiny one.
 
 Though I made the acquisition of a False Swiper, it was about 20 level below the Gible's level so I did not use it, instead trying not to kill it with my Kilowattrel.
 
-While I usually care about the ball I use, this time I just wanted to catch it for sure so I used a few Ultra Balls to get it.",,,,,,,,,#50baff
+While I usually care about the ball I use, this time I just wanted to catch it for sure so I used a few Ultra Balls to get it.",,,,,,,,,#50baff,
 0094,0874,Stonjourner,,Stonehenge,Scarlet,Mass Outbreak,,,19 June 2025,Asado Desert,24,Heal,Male,Bashful,Power Spot,Sturdy body,,Ayato,516057,,Stonehenge monument,"Since the start of the game, every mass encounters were in areas I hadn't reached yet. This one appeared on my way to the story so I thought why not give it a try.
 
 I went at it in auto battle, knowing my kitty wouldn't kill a Shiny. But I was surprised when it did not want to battle one that didn't look different from the others.
 
-So I stopped and looked at it for a few seconds, and at the others around. I noticed it was a bit darker in colour and so engaged the battle to find it being indeed Shiny.",,,,,,,,,#818587
+So I stopped and looked at it for a few seconds, and at the others around. I noticed it was a bit darker in colour and so engaged the battle to find it being indeed Shiny.",,,,,,,,,#818587,
 0095,0100,Voltorb,,Super Ball,Scarlet,Random Encounter,,,22 June 2025,East Province (Area Three),27,Ultra,,Bold,Static,A little quick tempered,,Ayato,516057,,French Great Ball Name,"Another random one. I was just running around when I saw this Great Ball rolling. I ran on it to start the battle. As I had nothing to weaken it, I started with throwing a Great Ball, as I thought it was just the obvious choice.
 
 Then I thought it might destruct itself. I checked online if at this level it have anything like this in it's moveset and it indeed have.
 
-Having nothing to counter that, I decided to try to get it the faster possible without caring for the ball. I threw a Ultra Ball and fortunately it went in it without much issues.",,,,,,,,,#4e94ff
-0096,0447,Riolu,,Lucien,Sleep,,,,23 June 2025,Taupe Hollow,10,,Male,Docile,,,,,,,Lucien – Even:if Tempest,,,,,,,,,,#fffd8e
-0097,0052,Meowth,,Rune,Sleep,,,,27 June 2025,Greengrass Isle,10,,Male,Timid,,,,,,,Rune – Even:if Tempest,,,,,,,,,,#d67c7d
-0098,0922,Pawmo,,Kou,Scarlet,Mass Outbreak,,,27 June 2025,West Province (Area Three),30,Heal,Male,Mild,Natural Cure,Sturdy Body,,Ayato,516057,,Kou Mukami – Diabolik Lovers More;Blood,"Since I got Stonehenge I go to Mass Outbreaks regularly, to try to get a new Shiny. And this day was a successful one as I saw the little Pokémon appears in red.",,,,,,,,,#ffa7aa
+Having nothing to counter that, I decided to try to get it the faster possible without caring for the ball. I threw a Ultra Ball and fortunately it went in it without much issues.",,,,,,,,,#4e94ff,
+0096,0447,Riolu,,Lucien,Sleep,,,,23 June 2025,Taupe Hollow,10,,Male,Docile,,,,,,,Lucien – Even:if Tempest,,,,,,,,,,#fffd8e,
+0097,0052,Meowth,,Rune,Sleep,,,,27 June 2025,Greengrass Isle,10,,Male,Timid,,,,,,,Rune – Even:if Tempest,,,,,,,,,,#d67c7d,
+0098,0922,Pawmo,,Kou,Scarlet,Mass Outbreak,,,27 June 2025,West Province (Area Three),30,Heal,Male,Mild,Natural Cure,Sturdy Body,,Ayato,516057,,Kou Mukami – Diabolik Lovers More;Blood,"Since I got Stonehenge I go to Mass Outbreaks regularly, to try to get a new Shiny. And this day was a successful one as I saw the little Pokémon appears in red.",,,,,,,,,#ffa7aa,
 0099,0625,Bisharp,,Yasuke,Scarlet,Random Encounter,,,28 June 2025,North Province (Area Two),52,Quick,Male,Naughty,Inner Focus,Good perseverance,,Ayato,516057,,Yasuke,"Every time I see a Bisharp in Scarlet, I can't help but wonder if it's shiny, as the blades regularly have a blueish colour on my screen.
 
-Today I was wandering around, trying to get an Umbreon for the dex completion, when I just stumbled across this blue Bisharp.",,,,,,,,,#3638b0
+Today I was wandering around, trying to get an Umbreon for the dex completion, when I just stumbled across this blue Bisharp.",,,,,,,,,#3638b0,
 0100,0133,Eevee,,Rochefort,LeafGreen,Soft Resets,6446,,14 July 2025,Celadon City,25,Poké,Male,Bold,Run Away,,28 / 10 / 17 / 20 / 22 / 18,Rose,20848,,Rochefort – Musketeer: Le sang des chevaliers,"For my 100th Shiny I wanted to do a special hunt. Or at least to select which Pokémon will get the number 100.
 
 It was a tough choice. Not because I had too many, but rather because none came to mind. The obvious choice would be my favourite Pokémon but pink Dragonair isn't quite to my liking. Another choice would have been to complete my very first hunt but I currently don't have my Sapphire game on hand. A shiny I like? None came to mind.
@@ -705,7 +705,7 @@ It was quite hard, I really wanted to continue Pokémon Scarlet. Or even Shield,
 
 As usual, I had the fear of having missed one during the resets. It is not difficult to imagine that this Eevee was lighter than the others, that it might have been a shiny I hadn't noticed. And as usual, all my fear disappeared when I saw the real shiny.
 
-He appeared as I was playing the story of the last patch of Honkai Star Rail. My reaction was to say He's here!"" when I saw the silver-y fur of the Pokémon. I was surprised as I thought the shiny star would be red instead of its actual yellow. I saved multiple times, renamed it, then saved multiple times again.""",,,30 June 2025,,,,,,#acacac
+He appeared as I was playing the story of the last patch of Honkai Star Rail. My reaction was to say He's here!"" when I saw the silver-y fur of the Pokémon. I was surprised as I thought the shiny star would be red instead of its actual yellow. I saved multiple times, renamed it, then saved multiple times again.""",,,30 June 2025,,,,,,#acacac,
 0101,0325,Spoink,,Ugo,Scarlet,Random Encounter,,,20 July 2025,South Province (Area Three),11,Luxury,Male,Naughty,Own Tempo,Likes to fight,,Ayato,516057,,Ugo Ugochukwu – Racing Driver,"After having completed the storyline of the main game, I decided to go for completing the dex before starting the DLCs.
 
 My current goal was a Carkol to evolve into Coalossal.
@@ -716,7 +716,7 @@ So while I was running around, I noticed this oddly coloured Spoink. I knew righ
 
 I took a bit of time to choose the ball and decided on a Luxury Ball. I hadn't even weakened it that it settled in the first one.
 
-Though I had no nickname for him. It took me several minutes but my mind stayed blank. So finally I thought that a driver name would be good enough and took the first one that came in mind.",,,,,,,,,#fed8bc
+Though I had no nickname for him. It took me several minutes but my mind stayed blank. So finally I thought that a driver name would be good enough and took the first one that came in mind.",,,,,,,,,#fed8bc,
 0102,0951,Capsakid,,Hellicious,Scarlet,Mass Outbreak,,,27 August 2025,Asado Desert,22,Quick,Female,Careful,Insomnia,Mischevious,,Ayato,516057,,Spicy Sauce Brand,"I wondered for a long time whether I'll try to get Shinies from the daily Mass Encounters. I was currently not quite wanting to run around on one spot to make more Pokémon appears, since I had still more things to do in the game, and the higher chances to encounter a Shiny as I reduce the Mass Encounter made me hesitate, as I always preferred full odds hunting.
 
 But then I decided, I'll at least try on the Gen 9 Pokémon.
@@ -727,15 +727,15 @@ Once I've completed the story in Kitakami, I returned to Paldea, where I already
 
 I went to the Asado Desert where there were two and started battling the various Pokémon there. Until the game tells me the Mass Encounter is gone. I went to check the remaining Capsakid and noticed one being a little different.
 
-No weakening, as I still have no Pokémon for that, but I took a few minutes to choose the Ball. Finally I settled on the Quick Ball as it's blue and yellow like the Pokémon. One was enough.",,,,,,,,,#d2ce77
+No weakening, as I still have no Pokémon for that, but I took a few minutes to choose the Ball. Finally I settled on the Quick Ball as it's blue and yellow like the Pokémon. One was enough.",,,,,,,,,#d2ce77,
 0103,0985,Scream Tail,,Alice,Scarlet,Random Encounter,,,03 August 2025,Area Zero,57,Heal,,Serious,Protosynthesis,Likes to thrash about,,Ayato,516057,,Alice Alibert – Le Visiteur du Futur,"It was during the main story. For the second DLC I had to return to the Area Zero. I was attentively looking around, in case of Shiny. Then I see this Scream Tail. I didn't know which colour the Shiny version is, but this one felt a bit off to me. Then another one appeared a bit further and I noticed it's the right coloured one. Obviously, this one was to be shiny.
 
 I had nothing to weaken it without risk of killing it so I threw Heal Balls on it. It took about five for the capture to be done.
 
-Despite being genderless, I chose to name it Alice, in reference to the movie I was watching when I met it.",,,,,,,,,#d768de
+Despite being genderless, I chose to name it Alice, in reference to the movie I was watching when I met it.",,,,,,,,,#d768de,
 0104,0725,Litten,,Roman,Scarlet,Random Encounter,,,09 August 2025,Canyon Biome,63,Premier,Male,Jolly,Blaze,Quick Tempered,,Ayato,516057,,Roman Staněk,"I had spent a lot of time in the Terrarium. I don't really like the place since it features only older generations Pokémon. While it's nice for completing the Pokédex, for Shiny Pokémon I prefer those of the game's generation.
 
-At that moment I was working on missions to unlock candies for Legendary Pokémon and I noted that with the number of Pokémon I've seen, I should have seen a Shiny. Not too long after thinking that, I climb the mountain of the Canyon Biome and notice a little white thing, understanding right away that it's a Shiny Litten.",,,,,,,,,#fb5a50
+At that moment I was working on missions to unlock candies for Legendary Pokémon and I noted that with the number of Pokémon I've seen, I should have seen a Shiny. Not too long after thinking that, I climb the mountain of the Canyon Biome and notice a little white thing, understanding right away that it's a Shiny Litten.",,,,,,,,,#fb5a50,
 0105,0005,Charmeleon,,Nanook,Scarlet,Random Encounter,,,18 August 2025,Savanna Biome,59,Ultra,Male,Serious,Blaze,Alert to sounds,,Ayato,516057,,Nanook – Honkai Star Rail,"Spending a bit more time in Terrarium, this time to quickly level Dunsparce to evolve them into Dudunsparce in an attempt to get a Three Segment one.
 
 Every Charmander I saw brought an interrogation to me: is it Shiny? This Pokémon is very bright in 3D and I thought it would be difficult to get the difference between a Shiny and the normal colour.
@@ -744,18 +744,18 @@ Then one appeared. I thought it was Shiny but was not sure. When I started the b
 
 The battle was long, this little one really didn't want to stay in the ball I have selected for him.
 
-I decided to evolve it into Charmeleon but not into Charizard, as I already have one (Soji) and a Charmander (Calcifer), and as I don't intend getting more Charmanders in this game. This way, I have the full family.",,,,,,,,,#fad882
+I decided to evolve it into Charmeleon but not into Charizard, as I already have one (Soji) and a Charmander (Calcifer), and as I don't intend getting more Charmanders in this game. This way, I have the full family.",,,,,,,,,#fad882,
 0106,0926,Fidough,,Sawal,Violet,Random Encounter,,,23 August 2025,South Province (Area One),7,Poké,Male,Relaxed,Own Tempo,Strong willed,,Valerie,845326,,Chronicles of Amber,"I started a game of Pokémon Violet with the only intention to get its Legendaries, transfer the one exclusive to Violet into Scarlet, and trade the others away in hope to get the few Legendaries available that can't be bought directly into the games.
 
 I had selected my team by taking the first Gen IX Pokémon I saw and that are not in my Scarlet's team, then I battled wild Pokémon to level them. Or so I tried.
 
-Then I see a Fidough that looks a bit weird. I send my Pokémon to battle it and it refuses to fight it. A Shiny, of course. I hadn't even reached the school.",,,,,,,,,#ddb594
+Then I see a Fidough that looks a bit weird. I send my Pokémon to battle it and it refuses to fight it. A Shiny, of course. I hadn't even reached the school.",,,,,,,,,#ddb594,
 0107,0240,Magby,,Sciel,Crystal,Odd Egg Resets,11,,13 September 2025,,5,Poké,Female,,,,2 / 10 / 10 / 10,Presa,35542,,Sciel – Clair Obscur Expedition 33,"When I arrived at the daycare, I knew I had to reset the egg. While the odds are of 14% of being Shiny, I still wasn't really enthusiast, as I had tried a few Togepi beforehand and that was insanely long. But this one allowed me to get the bicycle, making it go faster.
 
 At first, I thought the odds were of 1 / 64, I was mistaking with the odds of a baby Shiny in case of one parent Shiny. When my error got fixed, I had already done 7 resets and decided to get a bit faster on it.
 
-After 5 Igglybuff, one Elekid, one Magby, one Tyrogue, one Pichu and one Cleffa, this little girl get out of her egg, while playing at Clair Obscur.",,,03 June 2025,,,,,,#f88000
-0108,0562,Yamask,Galar,Carter,Shield,Encounters,Over 999,,4 October 2025,Route 6,30,Dusk,Male,Relaxed,Wandering Spirit,Proud of its power,,Mika,670408,,Howard Carter,"During my playthrough of Pokémon Shield, I came at the area of the Galar Yamask. And suddenly thought I won't continue the game without getting one.",,,3 September 2025,,,,,,#7be1a9
+After 5 Igglybuff, one Elekid, one Magby, one Tyrogue, one Pichu and one Cleffa, this little girl get out of her egg, while playing at Clair Obscur.",,,03 June 2025,,,,,,#f88000,
+0108,0562,Yamask,Galar,Carter,Shield,Encounters,Over 999,,4 October 2025,Route 6,30,Dusk,Male,Relaxed,Wandering Spirit,Proud of its power,,Mika,670408,,Howard Carter,"During my playthrough of Pokémon Shield, I came at the area of the Galar Yamask. And suddenly thought I won't continue the game without getting one.",,,3 September 2025,,,,,,#7be1a9,
 0109,0254,Sceptile,,Dara,Emerald (RNG Patched),Resets,627,,15 December 2025,Route 101,5,Poké,Female,Bashful,Overgrown,,,Maelle,53792,,The Chronicles of Amber,"Emerald always was an annoyance to me, due to the RNG issue. After a long, long time, I wondered if anyone ever thought of making a patch for it. Fortunately, I managed to find one. And with that, I decided to do Shiny Hunting, starting by Treecko.
 
 At the start I was kind of unsure. There’s no explicit thing showing the RNG have been fixed, so I feared doing resets for nothing.
@@ -764,7 +764,7 @@ I decided, during downtime at work, to do a bit on Shiny Hunting on my phone emu
 
 Nearing the end, I noticed, from the edge of my sight, a few stars and a blue Pokémon. After over 150 hours of not finding a Shiny on Silver, I feared raising my voice too much if I were to find a Shiny at work, but fortunately I just said a surprised “Oh!”.
 
-Finding a nickname took me a bit of time, and I finally settles for an Amber name. Now I’m moving my hunting rotation to Ruby.",,,09 September 2025,,,,,,#94cdd5
+Finding a nickname took me a bit of time, and I finally settles for an Amber name. Now I’m moving my hunting rotation to Ruby.",,,09 September 2025,,,,,,#94cdd5,
 0110,0092,Gastly,,Misao,Silver,Encounters,Over 9168,Yes,23 February 2026,Sprout Tower,4,Poké,Female,,,,,Abraham,61527,,Misao Minakami – Asura Cryin',"After finding Strohl, I started hunting for a Gastly, I planned to name “Pierre”, if male, in reference to the Formula 1 driver Pierre Gasly.
 
 Though Gastly is only appearing during the night in the Sprout Tower so I decided to go back to Route 30 in the morning for a Ledyba and Route 31 during the day for a Bellsprout.
@@ -783,8 +783,8 @@ Less than an hour later, a blue Gastly appeared. After a deep breath of surprise
 
 Going to my bag, I notice I have only 15 Poké Balls. I changed my Pokémon for my Weepinbell, used Sleep Powder and started throwing balls. Only after the 3rd Sleep Powder and the 6th Poké Ball, she decided to give up the battle.
 
-According to the playtime, I hunted over 160 hours for this Pokémon.",,,24 March 2025,,,,,,#848cf7
-0111,0041,Zubat,,Hugo,Ruby,Encounters,23934,Solrock,03 June 2026,Meteor Falls,15,Poké,Male,Serious,Inner Focus,,,Athos,12692,,Hugo Vlad - Zenless Zone Zero,"That was a long hunt. I started it as part of my SBQ and expected a Solrock. Then I had a big break in Shiny Hunting before returning to it a few years later.
+According to the playtime, I hunted over 160 hours for this Pokémon.",,,24 March 2025,,,,,,#848cf7,
+0111,0041,Zubat,,Hugo,Ruby,Encounters,23934,Solrock,03 June 2026,Meteor Falls,15,Poké,Male,Serious,Inner Focus,,8 / 23 / 30 / 21 / 4 / 19,Athos,12692,27364,Hugo Vlad - Zenless Zone Zero,"That was a long hunt. I started it as part of my SBQ and expected a Solrock. Then I had a big break in Shiny Hunting before returning to it a few years later.
 
 At first, I battle every and all Pokémon, returning to the Pokémon Center to resplenish their HP and attacks. The counter progressed. Sometimes I would change to return on a hunt on Silver. The counter progressed on both. And I got tired of battling the Pokémon, just running away when the Pokémon was not Shiny.
 
@@ -793,4 +793,4 @@ And the counter progressed and I was already above 10 000 encounters... And then
 After a moment, I wondered if my emulator was not having an issue (as I have no current meaning to change the battery of my physical game, I extracted the save and hunt on emulator), looked it up on the Internet but since I don't use the ""save state"" option everything should be fine. Besides, I got Dara on Emerald so there was no reason...
 
 Thinking about work, I did encounters, my fingers automatically working on the phone screen, and I noticed right away the Zubat in the shadow that was different! Finally! While it's not a Solrock, I don't mind, I just wanted a Shiny to come out. The mechanical counter reached 5505. Well. That Zubat wasn't quite gentle! It kept going out of my Poké Balls right away! I threw about 6 or 7 on him before it finally decided to settle in it. Saving the game, it shows over 320 hours of game, knowing I lost a few unsaved hours and I started the hunt before reaching the 200 hours.
-",,,,,,,,,
+",,,,,,,,,#405E0F,C0CC9BBF

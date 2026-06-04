@@ -10,6 +10,6 @@
 <p>
 	{% assign shinyByNumber = site.data.shiny | sort: "pokemonNumber" %}
 	{% for shiny in shinyByNumber %}
-		<a href="/shiny-pokemon/#{{ shiny.shinyCount }}"><img src="/assets/images/minis/mini_{{ shiny.pokemonNumber }}{%- if shiny.pokemonForm -%}_{{ shiny.pokemonForm | downcase }}{%- endif -%}.png"/></a>
+		<a href="/shiny/#{{ shiny.shinyCount }}"><img src="/assets/images/minis/mini_{{ shiny.pokemonNumber }}{%- if shiny.pokemonForm -%}_{{ shiny.pokemonForm | downcase }}{%- endif -%}.png"/></a>
 	{% endfor %}
 </P>
