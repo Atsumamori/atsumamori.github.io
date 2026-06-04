@@ -262,7 +262,7 @@ permalink: /shiny-pokemon/
   }
 
   window.addEventListener("hashchange", loadShiny);
-  window.addEventListener("load", loadShiny);
+  window.addEventListener("DOMContentLoaded", loadShiny);
   
   const modal = document.getElementById("imgModal");
 const modalImg = document.getElementById("modalImg");
