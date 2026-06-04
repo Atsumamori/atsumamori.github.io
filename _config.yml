@@ -36,7 +36,7 @@ sass:
   sass_dir: assets/css
   
 header_pages:
-  - shiny-pokemon.html
+  - shiny.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
