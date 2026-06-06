@@ -78,215 +78,271 @@ permalink: /shiny/
 </div>
 
 <script>
-  // Inject CSV data into JS
-  const shinyData = {{ site.data.shiny | jsonify }};
-  
-  function fillIfExist(valueToUse, spanToFill, divToHide) {
-	if (valueToUse) {
-				document.getElementById(spanToFill).textContent=valueToUse;
-				document.getElementById(divToHide).style.display='';
-			} else
-				document.getElementById(divToHide).style.display='none';
-  }
+	// Inject CSV data into JS
+	const shinyData = {{ site.data.shiny | jsonify }};
+	const pokemonData = {{ site.data.pokemon | jsonify }};
 
-  function loadShiny() {
-    const hash = window.location.hash.substring(1);
+	// Function Loading the Page
+	function loadShiny() {
+		const hash = window.location.hash.substring(1);
 
-	// If no Pokémon selected, we hide the list
-    if (!hash) {
-		document.getElementById("pokemonPage").style.display = 'none';  
-		document.getElementById("shinyList").style.display = 'block';  
-		return;
-    }
-	else
-	{
-		document.getElementById("shinyList").style.display = 'none';  
-		document.getElementById("pokemonPage").style.display = 'block';  
-		const pokemon = shinyData.find(p => p.shinyCount == hash);
-		if (pokemon) {
-			document.getElementById("p_spot").src= "/assets/images/spots/spot_s_" + pokemon.shinyCount + ".png";
-			document.getElementById("p_shinyCount").textContent= parseInt(pokemon.shinyCount,10);
-			document.getElementById("p_number").textContent=pokemon.pokemonNumber;
-			document.getElementById("p_specie").textContent=pokemon.pokemonSpecies;
-			document.getElementById("p_name").textContent=pokemon.name;
-			fillIfExist("", "p_form", "t_form");
-			fillIfExist(pokemon.startDate, "p_startDate", "t_startDate");
-			document.getElementById("p_game").textContent=pokemon.game;
-			fillIfExist(pokemon.method, "p_method", "t_method");
-			fillIfExist(pokemon.count, "p_count", "t_count");
-			fillIfExist(pokemon.target, "p_target", "t_target");
-			fillIfExist(pokemon.date, "p_date", "t_date");
-			fillIfExist(pokemon.place, "p_place", "t_place");
-			fillIfExist(pokemon.level, "p_level", "t_level");
-			fillIfExist(pokemon.ball, "p_ball", "t_ball");
-			if (pokemon.ball) { document.getElementById("p_ball_img").src= "/assets/images/items/ball_" + pokemon.ball.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") + ".png"; }
-			fillIfExist(pokemon.reference, "p_reference", "t_reference");
-			fillIfExist(pokemon.gender, "p_gender", "t_gender");
-			fillIfExist(pokemon.nature, "p_nature", "t_nature");
-			fillIfExist(pokemon.ability, "p_ability", "t_ability");
-			fillIfExist(pokemon.characteristic, "p_chara", "t_chara");
-			fillIfExist(pokemon.height, "p_height", "t_height");
-			fillIfExist(pokemon.weight, "p_weight", "t_weight");
-			fillIfExist(pokemon.ivs, "p_ivs", "t_ivs");
-			fillIfExist(pokemon.OT, "p_ot", "t_ot");
-			fillIfExist(pokemon.ID, "p_id", "t_id");
-			document.getElementById("p_tale").textContent=pokemon.tale;
-			document.querySelectorAll(".color").forEach(el => {
-				el.style.color = pokemon.color;
-			});
-			// Do images
-			//  Games
-			var game
-			switch (pokemon.game) {
-				case "Emerald (RNG Patched)":
-					game = "emerald";
-					break;
-				case "Legends: Arceus":
-					game = "legendsarceus";
-					break;
-				case "Legends: ZA":
-					game = "legendsza";
-					break
-			default:
-				game = pokemon.game.toLowerCase().replace(/\s/g, '');
-			}
-			document.getElementById("p_game_img").src= "/assets/images/games/" + game + ".png";
-			//	Method
-			if (pokemon.method)
-			{
-				var method;
-				switch (pokemon.method) {
-					case "Encounters":
-					case "Encounter":
-					case "Random Encounter":
-					case "Random Encounters":
-					case "Random S.O.S. Encounter":
-					case "Random Friend Safari Encounters":
-					case "Friend Safari Encounters":
-						method="encounter";
-						break;
-					case "Resets":
-					case "Odd Egg Resets":
-					case "Soft Resets":
-					case "Hard Resets":
-						method="reset";
-						break;
-					case "Mass Outbreak":
-					case "Random Encounter Mass Outbreak":
-					case "Swarm Encounters":
-					case "Surfing Encounters + Swarm":
-						method="swarm";
-						break;
-					case "Eggs":
-					case "Masuda Eggs":
-					case "Random Masuda Eggs":
-					case "Random Masuda Egg":
-						method = "egg";
-						break;
-					case "Random Surfing":
-						method = "surfing";
-						break;
-					case "Random Fishing":
-					case "Super Rod Fishing":
-					case "Old Rod Fishing":
-						method = "fishing";
-						break;
-					case "Encounters + Shiny Charm":
-					case "Masuda Eggs + Shiny Charm":
-						method = "shinycharm";
-						break;
-					case "Full-Rate Poké Radar":
-					case "Poké Radar":
-						method = "pokeradar";
-						break;
-					default:
-						method= pokemon.method.toLowerCase();
-				}
-				document.getElementById("p_method_img").src= "/assets/images/methods/method_" + method + ".png";
-				// form
-				if (pokemon.pokemonForm)
-				{
-					var form;
-					switch (pokemon.pokemonForm) {
-						case "int":
-							form = "?";
-							break;
-						default:
-							form = String(pokemon.pokemonForm).charAt(0).toUpperCase() + String(pokemon.pokemonForm).slice(1);
-							break;
-					}
-					fillIfExist(form, "p_form", "t_form");
-				}
-			}
-			
-			// Filter photos
-			const images = document.querySelectorAll(".photos");
-			images.forEach(img => {
-			  const name = img.dataset.name.toLowerCase();
-
-			  if (name.includes(hash)) {
-				img.style.display = "flex";
-			  } else {
-				img.style.display = "none";
-			  }
-			});
-			
-			// Do navigation
-			  const index = shinyData.findIndex(p => p.shinyCount == hash );
-
-			  const prev = shinyData[index - 1];
-			  const next = shinyData[index + 1];
-
-			  const prevLink = document.getElementById("prevLink");
-			  const nextLink = document.getElementById("nextLink");
-
-			  if (prev) {
-			  prevLink.style.display = "flex";
-				prevLink.href = "#" + prev.shinyCount;
-				prevLink.textContent = "« " + prev.name;
-			  } else {
-				prevLink.style.display = "none";
-			  }
-
-			  if (next) {
-			  nextLink.style.display = "flex";
-				nextLink.href = "#" + next.shinyCount;
-				nextLink.textContent = next.name + " »";
-			  } else {
-				nextLink.style.display = "none";
-				}
-		  return;
-		}
-		else {
+		// If no Pokémon selected, we hide the list
+		if (!hash) {
 			document.getElementById("pokemonPage").style.display = 'none';  
 			document.getElementById("shinyList").style.display = 'block';  
 			return;
 		}
+		else
+		{
+			document.getElementById("shinyList").style.display = 'none';  
+			document.getElementById("pokemonPage").style.display = 'block';  
+			const pokemon = shinyData.find(p => p.shinyCount == hash);
+			if (pokemon) {
+				document.getElementById("p_spot").src= "/assets/images/spots/spot_s_" + pokemon.shinyCount + ".png";
+				document.getElementById("p_shinyCount").textContent= parseInt(pokemon.shinyCount,10);
+				document.getElementById("p_number").textContent=pokemon.pokemonNumber;
+				document.getElementById("p_specie").textContent=pokemon.pokemonSpecies;
+				document.getElementById("p_name").textContent=pokemon.name;
+				fillIfExist("", "p_form", "t_form");
+				fillIfExist(pokemon.startDate, "p_startDate", "t_startDate");
+				document.getElementById("p_game").textContent=pokemon.game;
+				fillIfExist(pokemon.method, "p_method", "t_method");
+				fillIfExist(pokemon.count, "p_count", "t_count");
+				fillIfExist(pokemon.target, "p_target", "t_target");
+				fillTarget(pokemon.target);
+				fillIfExist(pokemon.date, "p_date", "t_date");
+				fillIfExist(pokemon.place, "p_place", "t_place");
+				fillIfExist(pokemon.level, "p_level", "t_level");
+				fillIfExist(pokemon.ball, "p_ball", "t_ball");
+				if (pokemon.ball) { document.getElementById("p_ball_img").src= "/assets/images/items/ball_" + pokemon.ball.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") + ".png"; }
+				fillIfExist(pokemon.reference, "p_reference", "t_reference");
+				fillIfExist(pokemon.gender, "p_gender", "t_gender");
+				fillIfExist(pokemon.nature, "p_nature", "t_nature");
+				fillIfExist(pokemon.ability, "p_ability", "t_ability");
+				fillIfExist(pokemon.characteristic, "p_chara", "t_chara");
+				fillIfExist(pokemon.height, "p_height", "t_height");
+				fillIfExist(pokemon.weight, "p_weight", "t_weight");
+				fillIfExist(pokemon.ivs, "p_ivs", "t_ivs");
+				fillIfExist(pokemon.OT, "p_ot", "t_ot");
+				fillIfExist(pokemon.ID, "p_id", "t_id");
+				document.getElementById("p_tale").textContent=pokemon.tale;
+				document.querySelectorAll(".color").forEach(el => {
+					el.style.color = pokemon.color;
+				});
+				// Do images
+				//  Games
+				var game
+				switch (pokemon.game) {
+					case "Emerald (RNG Patched)":
+						game = "emerald";
+						break;
+					case "Legends: Arceus":
+						game = "legendsarceus";
+						break;
+					case "Legends: ZA":
+						game = "legendsza";
+						break
+				default:
+					game = pokemon.game.toLowerCase().replace(/\s/g, '');
+				}
+				document.getElementById("p_game_img").src= "/assets/images/games/" + game + ".png";
+				//	Method
+				if (pokemon.method)
+				{
+					var method;
+					switch (pokemon.method) {
+						case "Encounters":
+						case "Encounter":
+						case "Random Encounter":
+						case "Random Encounters":
+						case "Random S.O.S. Encounter":
+						case "Random Friend Safari Encounters":
+						case "Friend Safari Encounters":
+							method="encounter";
+							break;
+						case "Resets":
+						case "Odd Egg Resets":
+						case "Soft Resets":
+						case "Hard Resets":
+							method="reset";
+							break;
+						case "Mass Outbreak":
+						case "Random Encounter Mass Outbreak":
+						case "Swarm Encounters":
+						case "Surfing Encounters + Swarm":
+							method="swarm";
+							break;
+						case "Eggs":
+						case "Masuda Eggs":
+						case "Random Masuda Eggs":
+						case "Random Masuda Egg":
+							method = "egg";
+							break;
+						case "Random Surfing":
+							method = "surfing";
+							break;
+						case "Random Fishing":
+						case "Super Rod Fishing":
+						case "Old Rod Fishing":
+							method = "fishing";
+							break;
+						case "Encounters + Shiny Charm":
+						case "Masuda Eggs + Shiny Charm":
+							method = "shinycharm";
+							break;
+						case "Full-Rate Poké Radar":
+						case "Poké Radar":
+							method = "pokeradar";
+							break;
+						default:
+							method= pokemon.method.toLowerCase();
+					}
+					document.getElementById("p_method_img").src= "/assets/images/methods/method_" + method + ".png";
+					// form
+					if (pokemon.pokemonForm)
+					{
+						var form;
+						switch (pokemon.pokemonForm) {
+							case "int":
+								form = "?";
+								break;
+							default:
+								form = String(pokemon.pokemonForm).charAt(0).toUpperCase() + String(pokemon.pokemonForm).slice(1);
+								break;
+						}
+						fillIfExist(form, "p_form", "t_form");
+					}
+				}
+				
+				// Filter photos
+				const images = document.querySelectorAll(".photos");
+				images.forEach(img => {
+				  const name = img.dataset.name.toLowerCase();
+
+				  if (name.includes(hash)) {
+					img.style.display = "flex";
+				  } else {
+					img.style.display = "none";
+				  }
+				});
+				
+				// Do navigation
+				  const index = shinyData.findIndex(p => p.shinyCount == hash );
+
+				  const prev = shinyData[index - 1];
+				  const next = shinyData[index + 1];
+
+				  const prevLink = document.getElementById("prevLink");
+				  const nextLink = document.getElementById("nextLink");
+
+				  if (prev) {
+				  prevLink.style.display = "flex";
+					prevLink.href = "#" + prev.shinyCount;
+					prevLink.textContent = "« " + prev.name;
+				  } else {
+					prevLink.style.display = "none";
+				  }
+
+				  if (next) {
+				  nextLink.style.display = "flex";
+					nextLink.href = "#" + next.shinyCount;
+					nextLink.textContent = next.name + " »";
+				  } else {
+					nextLink.style.display = "none";
+					}
+			  return;
+			}
+			else {
+				document.getElementById("pokemonPage").style.display = 'none';  
+				document.getElementById("shinyList").style.display = 'block';  
+				return;
+			}
+		}
 	}
-  }
 
-  window.addEventListener("hashchange", loadShiny);
-  window.addEventListener("DOMContentLoaded", loadShiny);
+	// Event Listeners
+	window.addEventListener("hashchange", loadShiny);
+	window.addEventListener("DOMContentLoaded", loadShiny);
   
-  const modal = document.getElementById("imgModal");
-const modalImg = document.getElementById("modalImg");
+	// Functions for Image Viewer
+	const modal = document.getElementById("imgModal");
+	const modalImg = document.getElementById("modalImg");
 
-document.querySelectorAll(".clickable-img").forEach(img => {
-  img.addEventListener("click", () => {
-    modal.style.display = "flex";
-    modalImg.src = img.src;
-  });
-});
+	document.querySelectorAll(".clickable-img").forEach(img => {
+	  img.addEventListener("click", () => {
+		modal.style.display = "flex";
+		modalImg.src = img.src;
+	  });
+	});
 
-document.querySelector(".close").addEventListener("click", () => {
-  modal.style.display = "none";
-});
+	document.querySelector(".close").addEventListener("click", () => {
+	  modal.style.display = "none";
+	});
 
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    modal.style.display = "none";
-  }
-});
+	modal.addEventListener("click", (e) => {
+	  if (e.target === modal) {
+		modal.style.display = "none";
+	  }
+	});
+
+	// Loading Utility Functions
+	function fillTarget(targetValue) {
+		if (document.getElementById("p_target").style.display!='none' && targetValue != null)
+		{
+			if (targetValue == "Yes")
+				document.getElementById("p_target").textContent = "Yes";
+			else
+			{
+				const pokemonList = targetValue.split("/");
+				var innerHtml = "";
+				if (pokemonList.length == 1)
+				{
+					if (targetValue.includes("♂"))
+					{
+						var values = targetValue.split(" ♂");
+						const pokemonFromCsv = pokemonData.find(p => p.name == values[0]);
+						innerHtml = values[0].concat(" ♂", " <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+					}
+					else
+					{
+						const pokemonFromCsv = pokemonData.find(p => p.name == targetValue);
+						if (pokemonFromCsv != null)
+							innerHtml = targetValue.concat(" <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+						else
+							innerHtml = findShiny(targetValue, true);
+					}
+				}
+				else
+				{
+					for (const pokemon of pokemonList) {
+						const pokemonFromCsv = pokemonData.find(p => p.name == pokemon.replace(/ /g,''));
+						innerHtml = innerHtml.concat(pokemon, " <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+					}
+				}
+				document.getElementById("p_target").innerHTML = innerHtml;
+			}
+		}
+	}
+	
+	// Take the name of a shiny and return the link with or without a mini icon
+	function findShiny(shinyName, withMini) { 
+		const wantedShiny = shinyData.find(p => p.name == shinyName);
+		var returnValue = "<a href='/shiny/#"+ wantedShiny.shinyCount+"'>"+ wantedShiny.name +"</a>";
+		if (withMini == true)
+			if (wantedShiny.pokemonForm)
+				returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+"_"+ wantedShiny.pokemonForm.toLowerCase()+".png'/>";
+			else
+				returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+".png'/>";
+		return returnValue;		
+	}
+  
+	function fillIfExist(valueToUse, spanToFill, divToHide) {
+		if (valueToUse) {
+					document.getElementById(spanToFill).textContent=valueToUse;
+					document.getElementById(divToHide).style.display='';
+				} else
+					document.getElementById(divToHide).style.display='none';
+	}
 </script>
 <style>
 .desc {
