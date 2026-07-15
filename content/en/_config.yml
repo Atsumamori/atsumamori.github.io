@@ -36,34 +36,7 @@ sass:
   sass_dir: assets/css
   
 header_pages:
-  - content/en/shiny.html
-  - content/fr/shiny.html
-  
-defaults:
-- scope:
-    path: 'content/en/index.html'
-    type: 'pages'
-  values:
-    language: en
-    permalink: 'index'
-- scope:
-    path: 'content/fr/index.html'
-    type: 'pages'
-  values:
-    language: fr
-    permalink: 'index/fr'
-- scope:
-    path: 'content/en/shiny.html'
-    type: 'pages'
-  values:
-    language: en
-    permalink: 'shiny'
-- scope:
-    path: 'content/fr/shiny.html'
-    type: 'pages'
-  values:
-    language: fr
-    permalink: 'shiny/fr'
+  - shiny.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.

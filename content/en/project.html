@@ -1,0 +1,241 @@
+---
+layout: default
+title: Hunting Projects
+permalink: /projects/
+---
+
+<div id="projectList">
+	<h1>Hunting Projects</h1>
+	<div  style="display: flex;
+					flex-wrap: wrap;
+					gap: 1rem;
+					justify-content:center">
+	  {% for p in site.data.projects reversed %}
+			<div style="text-align: center;width:232px;">
+				<div>
+					<a href="/projects/#{{ p.number }}">
+						<img src="/assets/images/spots/spot_p_{{ p.number }}.png">
+					</a>
+				</div>
+				<div style="margin-top:5px;margin-bottom:20px;">
+					<a href="/projects/#{{ p.number }}">
+						<span style="font-size:20px;">Project n°{{ p.number}} - {{ p.title }}</span>
+					</a>
+				</div>
+			 </div>
+	  {% endfor %}
+	  </div>
+</div>
+
+<div id="projectPage">
+	<div id="navigation">
+		Navigation <a id="prevLink">Previous</a> <a id="nextLink">Next</a>
+	</div>
+	<div style="width: fit-content;margin: 0 auto;text-align:center;">
+		<p style="padding-top:10px;font-size:25px">Project n°<span id="p_number"></span> - <span id="p_name"></span></p>
+	</div>
+	<div class="desc">
+		<span id="p_idea"></span>
+	</div>
+	<div class="desc">
+		Games: <span id="p_games"></span>
+	</div>
+	<div class="desc">
+		Number of Pokémon: <span id="p_nbHunt"></span><br>
+		Obtained: <span id="p_nbGot"></span>
+	</div>
+	<div class="desc" id="p_table">
+		
+	</div>
+</div>
+
+<script>
+	// Inject CSV data into JS
+	const shinyData = {{ site.data.shiny | jsonify }};
+	const pokemonData = {{ site.data.pokemon | jsonify }};
+	const projectData = {{ site.data.projects | jsonify }};
+	const projectItemsData = {{ site.data.projectsItems | jsonify }};
+
+	// Function Loading the Page
+	function loadProject() {
+		window.scrollTo(0, 0);
+		const hash = window.location.hash.substring(1);
+
+		// If no Project selected, we hide the list
+		if (!hash) {
+			document.getElementById("projectPage").style.display = 'none';  
+			document.getElementById("projectList").style.display = 'block';  
+			return;
+		}
+		else
+		{
+			document.getElementById("projectList").style.display = 'none';  
+			document.getElementById("projectPage").style.display = 'block';  
+			const project = projectData.find(p => p.number == hash);
+			if (project) {
+				document.getElementById("p_number").textContent=project.number;
+				document.getElementById("p_name").textContent=project.title;
+				document.getElementById("p_idea").textContent=project.idea;
+				// Games
+				var gamesText = "";
+				var allGames = {"gold":"Gold","silver":"Silver","crystal":"Crystal","ruby":"Ruby","sapphire":"Sapphire","emerald":"Emerald","firered":"FireRed","leafgreen":"LeafGreen","diamond":"Diamond","pearl":"Pearl",
+								"platinum":"Platinum","heartgold":"HeartGold","soulsilver":"SoulSilver","black":"Black","white":"White","black2":"Black2","white2":"White2","x":"X","y":"Y","omegaruby":"Omega Ruby","alphasapphire":"Alpha Sapphire",
+								"sun":"Sun","moon":"Moon","ultrasun":"UltraSun","ultramoon":"UltraMoon","letsgopikachu":"Let's Go Pikachu","letsgoeevee":"Let's Go Eevee","sword":"Sword","shield":"Shield","brilliantdiamond":"Brilliant Diamond",
+								"shiningpearl":"Shining Pearl","legendsarceus":"Legends: Arceus","scarlet":"Scarlet","violet":"Violet","legendsza":"Legends: Z-A"};
+				for (var gameIndex in allGames) {
+					if (project[gameIndex] == "X")
+						gamesText = gamesText.concat(allGames[gameIndex], "<img src='/assets/images/games/", gameIndex, ".png'/> ");
+				};
+				document.getElementById("p_games").innerHTML = gamesText;
+				// End - Games
+				// Table
+				const elements = projectItemsData.filter(p => p.project == hash);
+				var projectTable = "<table>";
+				for (var tabindex in elements) {
+					projectTable = projectTable.concat("<tr><td>",elements[tabindex].column1,"</td><td>",elements[tabindex].column2,"</td></tr>");
+				}
+				projectTable = projectTable.concat("</table>");
+				document.getElementById("p_table").innerHTML = projectTable;
+				// End - Table
+				
+				
+				// Do navigation
+				  const index = projectData.findIndex(p => p.number == hash );
+
+				  const prev = projectData[index - 1];
+				  const next = projectData[index + 1];
+
+				  const prevLink = document.getElementById("prevLink");
+				  const nextLink = document.getElementById("nextLink");
+
+				  if (prev) {
+				  prevLink.style.display = "flex";
+					prevLink.href = "#" + prev.number;
+					prevLink.textContent = "« Project n°" + prev.number + " - " + prev.title;
+				  } else {
+					prevLink.style.display = "none";
+				  }
+
+				  if (next) {
+				  nextLink.style.display = "flex";
+					nextLink.href = "#" + next.number;
+					nextLink.textContent = "Project n°" + next.number + " - " + next.title + " »";
+				  } else {
+					nextLink.style.display = "none";
+					}
+			  return;
+			}
+			else {
+				document.getElementById("projectPage").style.display = 'none';  
+				document.getElementById("projectList").style.display = 'block';  
+				return;
+			}
+		}
+	}
+
+	// Event Listeners
+	window.addEventListener("hashchange", loadProject);
+	window.addEventListener("DOMContentLoaded", loadProject);
+  
+
+	// Loading Utility Functions
+	function fillTarget(targetValue) {
+		if (document.getElementById("p_target").style.display!='none' && targetValue != null)
+		{
+			if (targetValue == "Yes")
+				document.getElementById("p_target").textContent = "Yes";
+			else
+			{
+				const pokemonList = targetValue.split("/");
+				var innerHtml = "";
+				if (pokemonList.length == 1)
+				{
+					if (targetValue.includes("♂"))
+					{
+						var values = targetValue.split(" ♂");
+						const pokemonFromCsv = pokemonData.find(p => p.name == values[0]);
+						innerHtml = values[0].concat(" ♂", " <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+					}
+					else
+					{
+						const pokemonFromCsv = pokemonData.find(p => p.name == targetValue);
+						if (pokemonFromCsv != null)
+							innerHtml = targetValue.concat(" <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+						else
+							innerHtml = findShiny(targetValue, true);
+					}
+				}
+				else
+				{
+					for (const pokemon of pokemonList) {
+						const pokemonFromCsv = pokemonData.find(p => p.name == pokemon.replace(/ /g,''));
+						innerHtml = innerHtml.concat(pokemon, " <img src='/assets/images/minis/mini_", pokemonFromCsv.number, ".png'/>");
+					}
+				}
+				document.getElementById("p_target").innerHTML = innerHtml;
+			}
+		}
+	}
+	
+	// Take the name of a shiny and return the link with or without a mini icon
+	function findShiny(shinyName, withMini) { 
+		const wantedShiny = shinyData.find(p => p.name == shinyName);
+		var returnValue = "<a href='/shiny/#"+ wantedShiny.shinyCount+"'>"+ wantedShiny.name +"</a>";
+		if (withMini == true)
+			if (wantedShiny.pokemonForm)
+				returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+"_"+ wantedShiny.pokemonForm.toLowerCase()+".png'/>";
+			else
+				returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+".png'/>";
+		return returnValue;		
+	}
+  
+	function fillIfExist(valueToUse, spanToFill, divToHide) {
+		if (valueToUse) {
+					document.getElementById(spanToFill).textContent=valueToUse;
+					document.getElementById(divToHide).style.display='';
+				} else
+					document.getElementById(divToHide).style.display='none';
+	}
+</script>
+<style>
+.desc {
+	padding-left:30%;
+	margin-right:20%;
+	margin-bottom:30px;
+	font-size:20px;
+}
+#gallery, #navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+</style>

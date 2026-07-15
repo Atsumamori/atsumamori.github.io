@@ -1,3 +1,8 @@
+{%- assign lang_code = page.language | default: site.language | default: site.default_lang -%}
+{%- assign lang_label = lang_code -%}
+  {%- if lang_code == 'en' -%}{%- assign lang_label = 'Anglais' -%}{%- endif -%}
+  {%- if lang_code == 'fr' -%}{%- assign lang_label = 'Français' -%}{%- endif -%}
+
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
@@ -7,7 +12,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <p>{{- site.description | escape -}}</p>
+        {%- assign desc = site.description | escape -%}
+		{%- assign desc_tr = (site.data.data_traductions | where: 'Anglais', desc | map: lang_label | first) | default: desc -%}
+		<p>{{ desc_tr | escape }}</p>
+
       </div>
 
       <div class="footer-col footer-col-2">

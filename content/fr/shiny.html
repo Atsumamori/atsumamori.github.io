@@ -1,0 +1,140 @@
+---
+layout: default
+title: Pokémon Shiny
+permalink: /shiny/fr/
+language: fr
+image_language: Anglais
+---
+
+{%- assign lang_code = page.language | default: site.language | default: site.default_lang -%}
+{%- assign lang_label = lang_code -%}
+  {%- if lang_code == 'en' -%}{%- assign lang_label = 'Anglais' -%}{%- endif -%}
+  {%- if lang_code == 'fr' -%}{%- assign lang_label = 'Français' -%}{%- endif -%}
+
+
+<div id="shinyList">
+	<h1>Pokémon Shiny</h1>
+	<div  style="display: flex;
+					flex-wrap: wrap;
+					gap: 1rem;
+					justify-content:center;
+					align-items:center">
+	  {% for p in site.data.sh_shiny reversed %}
+			<div style="text-align: center;;">
+			  <a href="/shiny/{% if lang_code != 'en' %}{{ lang_code }}/{% endif %}#{{ p.Compte }}">
+				<img src="/assets/images/spots/spot_s_{{ p.Compte }}.png">
+				<h1>{{ p.Nom }}</h1>
+			  </a>
+			 </div>
+	  {% endfor %}
+	  </div>
+</div>
+
+<div id="pokemonPage">
+	<div id="navigation">
+		{{ site.data.data_traductions | where: 'Français', "Navigation" | map: lang_label | first }} 
+		<a id="prevLink">{{ site.data.data_traductions | where: 'Français', "Précédent" | map: lang_label | first }}</a> 
+		<a id="nextLink">{{ site.data.data_traductions | where: 'Français', "Suivant" | map: lang_label | first }}</a>
+	</div>
+	<div style="width: fit-content;margin: 0 auto;text-align:center;">
+		<img id="p_spot"/>
+		<p style="padding-top:10px;font-size:25px">Shiny n°<span id="p_shinyCount"></span><br>
+		#<span id="p_number"></span>, <span id="p_specie"></span><span id="t_form"> - <span id="p_form"></span></span><br>
+		<span id="p_name"></span></p>
+	</div>
+	<div class="desc">
+		<h1 class="color">Informations de Chasse</h1>
+		<span class="color">Jeu :</span> Pokémon <span id="p_game"></span> <img id="p_game_img"/><br>
+		<div id="t_startDate"><span class="color">Date de Début :</span> <span id="p_startDate"></span><br></div>
+		<div id="t_method"><span class="color">Méthode :</span> <span id="p_method"></span> <span id="p_method_img"></span><br></div>
+		<div id="t_count"><span class="color">Nombre :</span> <span id="p_count"></span><br></div>
+		<div id="t_countlast"><span class="color">Nombre Depuis le Dernier Shiny :</span> <span id="p_countlast"></span><br></div>
+		<div id="t_target"><span class="color">Cible :</span> <span id="p_target"></span><br></div>
+		<div id="t_intermediaries"><span class="color">Intermédiaires :</span> <span id="p_intermediaries"></span><br></div>
+		<div id="t_influence"><span class="color">Influence :</span> <span id="p_influence"></span><br></div>
+	</div>
+	<div class="desc">
+		<h1 class="color">Informations de Capture</h1>
+		<div id="t_date"><span class="color">Date :</span> <span id="p_date"></span><br></div>
+		<div id="t_place"><span class="color">Lieu :</span> <span id="p_place"></span><br></div>
+		<div id="t_level"><span class="color">Niveau :</span> <span id="p_level"></span><br></div>
+		<div id="t_ball"><span class="color">Ball :</span> <span id="p_ball"></span> Ball <img id="p_ball_img"/><br></div>
+		<div id="t_item"><span class="color">Objet Tenu :</span> <span id="p_item"></span> <img id="p_item_img"/><br></div>
+	</div>
+	<div class="desc">
+		<h1 class="color">Informations du Pokémon</h1>
+			<div id="t_gender"><span class="color">Genre :</span> <span id="p_gender"></span><br></div>
+			<div id="t_nature"><span class="color">Nature :</span> <span id="p_nature"></span><br></div>
+			<div id="t_ability"><span class="color">Talent :</span> <span id="p_ability"></span><br></div>
+			<div id="t_chara"><span class="color">Caractéristique :</span> <span id="p_chara"></span><br></div>
+			<div id="t_height"><span class="color">Taille :</span> <span id="p_height"></span><br></div>
+			<div id="t_weight"><span class="color">Poids :</span> <span id="p_weight"></span><br></div>
+			<div id="t_specificity"><span class="color">Spécificité :</span> <span id="p_specificity"></span><br></div>
+			<div id="t_ivs"><span class="color">IVs :</span> <span id="p_ivs"></span><br></div>
+			<div id="t_ot"><span class="color">DO :</span> <span id="p_ot"></span><br></div>
+			<div id="t_id"><span class="color">ID :</span> <span id="p_id"></span><br></div>
+			<div id="t_reference"><span class="color">Référence du Nom :</span> <span id="p_reference"></span><br></div>
+	</div>
+	<div class="desc">
+		<p id="p_tale" style="white-space: pre-line;"></p>
+	</div>
+	<div class="desc" id="gallery">
+	
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/photos/' %}
+      <img style="max-width:200px;max-height:200px; object-fit: contain;" class="photos clickable-img" src="{{ file.path | relative_url }}" data-name="{{ file.name }}">
+    {% endif %}
+  {% endfor %}
+	</div>
+</div>
+<div id="imgModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<script>window.pageData = { language: "{{ page.language }}" };</script>
+<script src="{{ '/assets/js/general.js' 	| relative_url }}"></script>
+<script src="{{ '/assets/js/shinyPage.js' 	| relative_url }}"></script>
+
+<style>
+.desc {
+	padding-left:30%;
+	margin-right:20%;
+	margin-bottom:30px;
+	font-size:20px;
+}
+#gallery, #navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+</style>

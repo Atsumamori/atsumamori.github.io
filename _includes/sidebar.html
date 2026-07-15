@@ -1,15 +1,31 @@
+{%- assign lang_code = page.language | default: site.language | default: site.default_lang -%}
+{%- assign lang_label = lang_code -%}
+  {%- if lang_code == 'en' -%}{%- assign lang_label = 'Anglais' -%}{%- endif -%}
+  {%- if lang_code == 'fr' -%}{%- assign lang_label = 'Français' -%}{%- endif -%}
+
 <p  style="font-size:20px;">
-	Part-Time Shiny Hunter Since 2011
+	{{ site.data.data_traductions | where: 'Français', "Shiny Hunter à Temps Partiel Depuis 2011" | map: lang_label | first }}
 </p>
 <p  style="font-size:20px;">
-	With preferences for hunting on older generation games.
+	{{ site.data.data_traductions | where: 'Français', "Avec une préférence pour la chasse sur anciennes générations." | map: lang_label | first }}
 </p>
 <p  style="font-size:20px;">
-	Current Shiny Count: {{ site.data.shiny.size }}
+	{{ site.data.data_traductions | where: 'Français', "Nombre de Shiny :" | map: lang_label | first }} {{ site.data.sh_shiny.size }}
 </p>
 <p>
-	{% assign shinyByNumber = site.data.shiny | sort: "pokemonNumber" %}
+	{% assign shinyByNumber = site.data.sh_shiny | sort: "Numéro" %}
 	{% for shiny in shinyByNumber %}
-		<a href="/shiny/#{{ shiny.shinyCount }}"><img src="/assets/images/minis/mini_{{ shiny.pokemonNumber }}{%- if shiny.pokemonForm -%}_{{ shiny.pokemonForm | downcase }}{%- endif -%}.png"/></a>
+		{% assign forme = '' %}
+
+		{% case shiny.Forme %}
+		  {% when 'Forme ?' %}			{% assign forme = 'int' %}
+		  {% when 'Forme de Galar' %}	{% assign forme = 'galar' %}
+		  {% when 'Motif Floraison' %}	{% assign forme = 'meadow' %}
+		  {% when 'Motif Rivage' %}		{% assign forme = 'marine' %}
+		  {% else %}					{% assign forme = shiny.Forme %}
+		{% endcase %}
+
+		{{ label }}
+		<a href="/shiny/{% if lang_code != 'en' %}{{ lang_code }}/{% endif %}#{{ shiny.Compte }}"><img src="/assets/images/minis/mini_{{ shiny['Numéro'] }}{%- if shiny.Forme -%}_{{ forme | downcase }}{%- endif -%}.png"/></a>
 	{% endfor %}
 </P>

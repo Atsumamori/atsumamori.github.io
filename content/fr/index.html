@@ -1,0 +1,108 @@
+---
+layout: index
+permalink: /fr/
+language: fr
+image_language: Anglais
+---
+
+<div class="home">
+  {%- assign lang_code = page.language | default: site.language | default: site.default_lang -%}
+  {%- assign lang_label = lang_code -%}
+  {%- if lang_code == 'en' -%}{%- assign lang_label = 'Anglais' -%}{%- endif -%}
+  {%- if lang_code == 'fr' -%}{%- assign lang_label = 'Français' -%}{%- endif -%}
+
+  {%- assign huntsByStatus = site.data.sh_chasses | group_by: 'Status' -%}
+  {%- for statusGroup in huntsByStatus -%}
+    {%- if statusGroup.name == 'En cours' or statusGroup.name == 'En pause' -%}
+      {%- if statusGroup.name | strip == 'En Cours' -%}
+		  {%- assign statusKey = 'Shiny Hunts En Cours' -%}
+		{%- else -%}
+		  {%- assign statusKey = 'Shiny Hunts En Pause' -%}
+		{%- endif -%}
+      <h1 class="page-heading">
+        {{ (site.data.data_traductions | where: 'Français', statusKey | map: lang_label | first) }}
+      </h1>
+
+      {%- assign versionGrouping = statusGroup.items | group_by: 'Version' -%}
+      {%- for versionGroup in versionGrouping -%}
+        {%- assign versionName = versionGroup.name -%}
+        {%- assign versionLabel = (site.data.data_traductions | where: 'Français', versionName | map: lang_label | first) | strip -%}
+		{%- assign versionLabelImage = (site.data.data_traductions | where: 'Français', versionName | map: page.image_language | first) | strip -%}
+        <h2>
+          <img
+            src="/assets/images/games/{{ versionLabelImage | remove: ' ' | downcase }}.png"
+            alt="{{ versionName }} Icon"
+          >
+          <span>Pokémon</span>
+          {{ versionLabel }}
+        </h2>
+
+        {%- for hunt in versionGroup.items -%}
+          <p>
+            <table style="border-collapse: collapse; border: none; width: 100%; table-layout: fixed;">
+              <tr>
+				<td style="border: none;width: 180px;height: 180px;padding: 0;text-align: center;vertical-align: middle;overflow: hidden;padding: 0;" rowspan=2>
+					<img src="/assets/images/places/{{ site.data.data_traductions | where: 'Français', hunt.Lieu | map: page.image_language | first  | remove: " " | remove: "." | downcase }}.png" alt="{{ hunt.Lieu }} Image" style="aspect-ratio:1;object-fit:cover;width:180px">
+				</td>
+				<td style="border: none;">
+					<h3>
+						{{ site.data.data_traductions | where: 'Français', hunt.Lieu | map: lang_label | first }}
+						{% assign methode_val = hunt['Méthode'] | default: '' | strip %}
+						{% if methode_val != '' %}
+							(<span>{{ site.data.data_traductions | where: 'Français', methode_val | map: lang_label | first }}</span>)
+						{% endif %}
+					</h3>
+				</td>
+              </tr>
+
+              <tr>
+                <td style="border: none; word-break: break-word; overflow-wrap: break-word;">
+                  <table style="border-collapse: collapse; border: none; width: auto; table-layout: auto;">
+                    <tr>
+                      {%- assign pokemonList = hunt['Pokémon'] | split: ',' -%}
+                      {%- for pokemonFromList in pokemonList -%}
+                        {%- assign pokemonFromList = pokemonFromList | strip -%}
+                        {%- assign pokemonData = site.data.data_localisations | where: 'Pokémon', pokemonFromList | first -%}
+
+                        <td style="border: none; padding: 0; min-width:100px; width: 1px; white-space: nowrap;">
+                          <img
+                            src="/assets/images/sprites/{{ pokemonData['Numéro'] }}_{{ versionLabelImage | remove: ' ' | downcase }}.png"
+                            alt="{{ pokemonFromList }}"
+                            style="display: block; width: auto; height: auto; max-width: 90px; max-height: 90px;"
+                          >
+                          {%- if hunt.Cible == pokemonFromList -%}
+                            <br/>
+                            <span>{{ (site.data.data_traductions | where: 'Français', 'Cible' | map: lang_label | first) }}</span>
+                          {%- else -%}
+                            <br/><br/>
+                          {%- endif -%}
+                        </td>
+                      {%- endfor -%}
+                    </tr>
+                  </table>
+                </td>
+
+                <td style="border: none; padding: 0; min-width:100px; width: 1px; white-space: nowrap;">
+                  {%- if hunt["Date de début"] -%}
+                    <p>
+                      <span>{{ (site.data.data_traductions | where: 'Français', 'Commencé le' | map: lang_label | first) }}</span>
+                      {{ hunt["Date de début"] }}
+                    </p>
+                  {%- endif -%}
+
+                  {%- if hunt.Compte -%}
+                    <p>
+                      {{ hunt.Compte }}
+                      <span>{{ (site.data.data_traductions | where: 'Français', 'Compté le' | map: lang_label | first) }}</span>
+                      {{ hunt["Dernier Compte"] }}
+                    </p>
+                  {%- endif -%}
+                </td>
+              </tr>
+            </table>
+          </p>
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+</div>

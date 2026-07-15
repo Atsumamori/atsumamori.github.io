@@ -1,9 +1,14 @@
+{%- assign lang_code = page.language | default: site.language | default: site.default_lang -%}
+{%- assign lang_label = lang_code -%}
+  {%- if lang_code == 'en' -%}{%- assign lang_label = 'Anglais' -%}{%- endif -%}
+  {%- if lang_code == 'fr' -%}{%- assign lang_label = 'Français' -%}{%- endif -%}
+
 <header class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}{% if lang_code != 'en' %}{{ lang_code }}/{% endif %}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -19,8 +24,8 @@
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- if my_page.title and my_page.language == lang_code -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
