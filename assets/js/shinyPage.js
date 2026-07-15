@@ -267,17 +267,17 @@ function fillInfluence(valueInfluence, language) {
 	
 // Take the name of a shiny and return the link with or without a mini icon
 function findShiny(shinyName, withMini) { 
-	const wantedShiny = shinyData.find(p => p.name == shinyName);
+	const wantedShiny = dataShiny.find(p => p.Nom == shinyName);
 	if (wantedShiny == undefined)
 		return shinyName;
 	else
 	{
-	var returnValue = "<a href='/shiny/#"+ wantedShiny.shinyCount+"'>"+ wantedShiny.name +"</a>";
+	var returnValue = "<a href='/shiny/#"+ wantedShiny.Compte+"'>"+ wantedShiny.Nom +"</a>";
 	if (withMini == true)
-		if (wantedShiny.pokemonForm)
-			returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+"_"+ wantedShiny.pokemonForm.toLowerCase()+".png'/>";
+		if (wantedShiny.Forme)
+			returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.Numéro+"_"+ wantedShiny.Forme.toLowerCase()+".png'/>";
 		else
-			returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.pokemonNumber+".png'/>";
+			returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.Numéro+".png'/>";
 	return returnValue;		
 	}
 }
