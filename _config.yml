@@ -31,6 +31,7 @@ youtube_username:  "@Atsumamori"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
   sass_dir: assets/css
