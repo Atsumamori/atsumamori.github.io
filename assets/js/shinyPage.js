@@ -3,6 +3,7 @@
 
 // Load CSV
 const dataShiny 		= {{ site.data.sh_shiny 			| jsonify }};
+const dataMissed 		= {{ site.data.sh_rates 			| jsonify }};
 const dataPokemon		= {{ site.data.data_localisations 	| jsonify }};
 const dataEquipes		= {{ site.data.game_equipes			| jsonify }};
 
@@ -64,7 +65,7 @@ function showPokemon(pokemonNumber)
 		fillAndTranslateIfExist(shiny["Forme"], 			"p_form", 			"t_form", 		language);
 		fillAndTranslateIfExist(shiny["Spécificité"], 		"p_specificity", 	"t_specificity",language);
 		fillInfluence(shiny["Influence"],  	language);
-		fillIntermediaries(shiny["Intermédiaire"]);
+		fillIntermediaries(shiny["Intermédiaire"], shiny.Nom, language_code);
 		fillAndTranslateIfExist(shiny["Objet"], 			"p_item", 			"t_item", 		language);
 		fillAndTranslateMultiIfExistWithImages(shiny["Méthode"], 			"p_method", 		"t_method",		"p_method_img", language);
 		// Write the color
@@ -214,19 +215,41 @@ function fillTarget(targetValue) {
 }
 
 // Intermediaries
-function fillIntermediaries(interValue) {
+function fillIntermediaries(interValue, thisPokemonName, language) {
+	var missed = dataMissed.find( p => p.Reprise == thisPokemonName );
+	var completeInter = "";
+	if (missed != null)
+	{
+		var missPoke = "";
+		//for (const miss of missed)
+		//{
+			if (missPoke == "")
+				missPoke = findMissed(missed.Compte, true, language);
+			else
+				missPoke = missPoke + ", " + findMissed(missed.Compte, true, language);
+		//}
+		completeInter = missPoke;
+	}
 	if (interValue != null && interValue != "")
 	{
 		const pokemonList = interValue.split(",");
-		var completeInter = "";
+		var interPoke = "";
 		
 		for (const pokemon of pokemonList) {
-			if (completeInter == "")
-				completeInter = findShiny(pokemon.trim(), true);
+			if (interPoke == "")
+				interPoke = findShiny(pokemon.trim(), true, language);
 			else
-				completeInter = completeInter + ", " + findShiny(pokemon.trim(), true);
+				interPoke = interPoke + ", " + findShiny(pokemon.trim(), true, language);
 		}
 		
+		if (completeInter == "")
+			completeInter = interPoke;
+		else
+			completeInter = completeInter + ", " + interPoke;
+		
+	}
+	if (completeInter != "")
+	{
 		document.getElementById("p_intermediaries").innerHTML = completeInter;
 		document.getElementById("t_intermediaries").style.display = '';
 	}
@@ -266,13 +289,36 @@ function fillInfluence(valueInfluence, language) {
 }
 	
 // Take the name of a shiny and return the link with or without a mini icon
-function findShiny(shinyName, withMini) { 
-	const wantedShiny = dataShiny.find(p => p.Nom == shinyName);
+function findShiny(shinyName, withMini, language) { 
+	var wantedShiny = dataShiny.find(p => p.Nom == shinyName);
+	if (wantedShiny == undefined){
+		wantedShiny = dataMissed.find(p => p.Nom == shinyName);
+		if (wantedShiny == undefined)
+			return shinyName;
+	}
+	var returnValue = "<a href='/shiny/"+language+"/#"+ wantedShiny.Compte+"'>"+ wantedShiny.Nom +"</a>";
+	if (withMini == true)
+		if (wantedShiny.Forme)
+					returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.Numéro+"_"+ wantedShiny.Forme.toLowerCase()+".png'/>";
+				else
+					returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.Numéro+".png'/>";
+			return returnValue;		
+}
+
+// Take the name of a missed shiny and return the link with or without a mini icon
+function findMissed(shinyNum, withMini, language) { 
+	const wantedShiny = dataMissed.find(p => p.Compte == shinyNum);
 	if (wantedShiny == undefined)
-		return shinyName;
+		return shinyNum;
 	else
 	{
-	var returnValue = "<a href='/shiny/#"+ wantedShiny.Compte+"'>"+ wantedShiny.Nom +"</a>";
+		var pageName = "";
+		if (language == "fr")
+			pageName = "rate";
+		else if (language == "en")
+			pageName = "missed";
+		var wantedName=wantedShiny.Nom != null ? wantedShiny.Nom : wantedShiny["Pokémon"]
+	var returnValue = "<a href='/"+pageName+"/"+language+"/#"+ wantedShiny.Compte+"'>"+ wantedName +"</a>";
 	if (withMini == true)
 		if (wantedShiny.Forme)
 			returnValue +=" <img src='/assets/images/minis/mini_"+ wantedShiny.Numéro+"_"+ wantedShiny.Forme.toLowerCase()+".png'/>";

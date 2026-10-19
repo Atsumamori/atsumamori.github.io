@@ -39,6 +39,8 @@ sass:
 header_pages:
   - content/en/shiny.html
   - content/fr/shiny.html
+  - content/fr/missed.html
+  - content/en/missed.html
   
 defaults:
 - scope:
@@ -65,6 +67,18 @@ defaults:
   values:
     language: fr
     permalink: 'shiny/fr'
+- scope:
+    path: 'content/en/missed.html'
+    type: 'pages'
+  values:
+    language: en
+    permalink: 'missed'
+- scope:
+    path: 'content/fr/missed.html'
+    type: 'pages'
+  values:
+    language: fr
+    permalink: 'rate/fr'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
