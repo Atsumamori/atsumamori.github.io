@@ -13,8 +13,9 @@ image_language: Anglais
 
   {%- assign huntsByStatus = site.data.sh_chasses | group_by: 'Status' -%}
   {%- for statusGroup in huntsByStatus -%}
-    {%- if statusGroup.name == 'En cours' or statusGroup.name == 'En pause' -%}
-      {%- if statusGroup.name | strip == 'En Cours' -%}
+	{%- assign cleanStatus = statusGroup.name | strip -%}
+    {%- if cleanStatus == 'En cours' or cleanStatus == 'En pause' -%}
+      {%- if cleanStatus == 'En cours' -%}
 		  {%- assign statusKey = 'Shiny Hunts En Cours' -%}
 		{%- else -%}
 		  {%- assign statusKey = 'Shiny Hunts En Pause' -%}
